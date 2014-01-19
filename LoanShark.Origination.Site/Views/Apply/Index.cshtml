@@ -1,0 +1,31 @@
+﻿@model LoanApplication
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+     @Html.AntiForgeryToken()
+     <div class="form-horizontal">
+         <h4>Loan Application</h4>
+
+         @Html.ValidationSummary(true)
+         
+         @Html.FormGroupFor(model => model.FirstName)
+         @Html.FormGroupFor(model => model.Amount)
+         
+         <div class="form-group">
+             <div class="col-md-offset-2 col-md-10">
+                 <input id="applyCommand" type="submit" value="Apply" class="btn btn-default" />
+             </div>
+         </div>
+     </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+
+

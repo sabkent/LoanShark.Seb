@@ -1,0 +1,5 @@
+C:\Development\LoanShark\LoanShark.Core\bin\Debug\LoanShark.Core.dll
+C:\Development\LoanShark\LoanShark.Core\bin\Debug\LoanShark.Core.pdb
+C:\Development\LoanShark\LoanShark.Core\obj\Debug\LoanShark.Core.dll
+C:\Development\LoanShark\LoanShark.Core\obj\Debug\LoanShark.Core.pdb
+C:\Development\LoanShark\LoanShark.Core\obj\Debug\LoanShark.Core.csprojResolveAssemblyReference.cache

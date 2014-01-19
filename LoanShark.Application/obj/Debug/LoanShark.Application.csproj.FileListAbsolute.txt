@@ -1,0 +1,13 @@
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\LoanShark.Application.dll
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\LoanShark.Application.pdb
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\Autofac.dll
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\LoanShark.Core.dll
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\Newtonsoft.Json.dll
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\System.Net.Http.Formatting.dll
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\LoanShark.Core.pdb
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\Autofac.xml
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\Newtonsoft.Json.xml
+C:\Development\LoanShark\LoanShark.Application\bin\Debug\System.Net.Http.Formatting.xml
+C:\Development\LoanShark\LoanShark.Application\obj\Debug\LoanShark.Application.csprojResolveAssemblyReference.cache
+C:\Development\LoanShark\LoanShark.Application\obj\Debug\LoanShark.Application.dll
+C:\Development\LoanShark\LoanShark.Application\obj\Debug\LoanShark.Application.pdb

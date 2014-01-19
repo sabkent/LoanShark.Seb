@@ -1,0 +1,7 @@
+C:\Development\LoanShark\LoanShark.Messaging\bin\Debug\LoanShark.Messaging.dll
+C:\Development\LoanShark\LoanShark.Messaging\bin\Debug\LoanShark.Messaging.pdb
+C:\Development\LoanShark\LoanShark.Messaging\obj\Debug\LoanShark.Messaging.dll
+C:\Development\LoanShark\LoanShark.Messaging\obj\Debug\LoanShark.Messaging.pdb
+C:\Development\LoanShark\LoanShark.Messaging\obj\Debug\LoanShark.Messaging.csprojResolveAssemblyReference.cache
+C:\Development\LoanShark\LoanShark.Messaging\bin\Debug\RabbitMQ.Client.dll
+C:\Development\LoanShark\LoanShark.Messaging\bin\Debug\RabbitMQ.Client.xml

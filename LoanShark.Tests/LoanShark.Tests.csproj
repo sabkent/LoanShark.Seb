@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B0D7911-0EE5-44FA-B0BC-196FBE03DFBD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LoanShark.Tests</RootNamespace>
+    <AssemblyName>LoanShark.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.3.0\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1312.1622\lib\net40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collections\Integration\Application\CommandHandlers\CollectDebtHandlerTests.cs" />
+    <Compile Include="Messaging\OctoBusTests.cs" />
+    <Compile Include="Origination\Integration\Controllers\ApplyControllerTests.cs" />
+    <Compile Include="RabbitTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoanShark.Application\LoanShark.Application.csproj">
+      <Project>{6a57a665-4175-4825-ac75-b788f7a8dd96}</Project>
+      <Name>LoanShark.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Core\LoanShark.Core.csproj">
+      <Project>{3c9bf820-f85a-46b9-96f3-903cc294e6fd}</Project>
+      <Name>LoanShark.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Infrastructure\LoanShark.Infrastructure.csproj">
+      <Project>{44be75ba-a71d-4a6f-8c8f-6872dc2bf93b}</Project>
+      <Name>LoanShark.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Messaging.EasyNetQ\LoanShark.Messaging.EasyNetQ.csproj">
+      <Project>{cd07b7d2-08fa-41bf-a027-19423908bf9a}</Project>
+      <Name>LoanShark.Messaging.EasyNetQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Messaging.RabbitMQ\LoanShark.Messaging.RabbitMQ.csproj">
+      <Project>{799d73cb-0253-47ec-983a-623b32363c97}</Project>
+      <Name>LoanShark.Messaging.RabbitMQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Messaging\LoanShark.Messaging.csproj">
+      <Project>{3ce9adc5-413c-48a9-875a-a606f22075c6}</Project>
+      <Name>LoanShark.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Origination.Site\LoanShark.Origination.Site.csproj">
+      <Project>{674ac7a8-ad6d-47eb-a00f-eb2b4e0ae83e}</Project>
+      <Name>LoanShark.Origination.Site</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Origination\Integration\CommandHandlers\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
