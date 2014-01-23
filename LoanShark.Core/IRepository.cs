@@ -11,4 +11,10 @@ namespace LoanShark.Core
         T GetById<T>(Guid id) where T : Aggregate;
         void Save(Aggregate aggregate);
     }
+
+    //public interface IRepository<T> where  T: Aggregate
+    //{
+    //    T GetById<T>(Guid id);
+    //    void Save(T aggregate);
+    //}
 }

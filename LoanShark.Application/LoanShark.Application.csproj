@@ -65,7 +65,10 @@
     <Compile Include="Origination\CommandHandlers\ApplyForLoanHandler.cs" />
     <Compile Include="Origination\EventSubscribers\LoanApplicationCompleteSignaler.cs" />
     <Compile Include="Origination\EventSubscribers\LoanApplicationReadModelDenormalizer.cs" />
+    <Compile Include="Origination\EventSubscribers\LoanApplicationSagaHandler.cs" />
     <Compile Include="Origination\Events\LoanApplicationAccepted.cs" />
+    <Compile Include="Origination\Events\LoanApplicationSubmitted.cs" />
+    <Compile Include="Origination\Sagas\LoanApplicationSaga.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

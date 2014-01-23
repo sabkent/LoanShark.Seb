@@ -48,7 +48,6 @@ namespace LoanShark.Origination.Site.Controllers
         [HttpPost]
         public ActionResult Index(LoanApplication loanApplication)
         {
-            loanApplication.FirstName = null;
             //TODO: extension method doesn't work without 'this' qualifier, peculiar!
             return this.ExecuteCommand<LoanApplication, ApplyForLoan>(loanApplication)
                 .Success(command => RedirectToAction("Processing", new {command.Id}));

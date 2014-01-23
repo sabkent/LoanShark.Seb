@@ -61,6 +61,7 @@
     <Compile Include="MongoProjectionMapping.cs" />
     <Compile Include="Origination\ContainerModule.cs" />
     <Compile Include="Origination\Repositories\LoanApplicationRepository.cs" />
+    <Compile Include="Origination\Repositories\LoanApplicationSagaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlEventStore.cs" />
   </ItemGroup>

@@ -55,13 +55,16 @@
     <Compile Include="IRepository.cs" />
     <Compile Include="IValidateCommand.cs" />
     <Compile Include="Origination\Commands\ApplyForLoan.cs" />
+    <Compile Include="Origination\Commands\SubmitApplication.cs" />
     <Compile Include="Origination\Commands\Validators\ApplyForLoanDuplicateValidator.cs" />
     <Compile Include="Origination\Commands\Validators\ApplyForLoanInputValidator.cs" />
     <Compile Include="Origination\Data\ILoanApplicationRepository.cs" />
+    <Compile Include="Origination\Data\ILoanApplicationSagaRepository.cs" />
     <Compile Include="Origination\Domain\Applicant.cs" />
     <Compile Include="Origination\Domain\Events\ApplicationCreated.cs" />
     <Compile Include="Origination\Domain\LoanApplication.cs" />
     <Compile Include="Origination\Projections\AcceptedLoan.cs" />
+    <Compile Include="Origination\Sagas\LoanApplicationSaga.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecureIdGenerator.cs" />
     <Compile Include="TimeSource.cs" />

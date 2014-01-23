@@ -199,10 +199,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Origination\ApplicationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Representations\Originations\LoanApplication.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -221,6 +223,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoanShark.Application\LoanShark.Application.csproj">
+      <Project>{6a57a665-4175-4825-ac75-b788f7a8dd96}</Project>
+      <Name>LoanShark.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Core\LoanShark.Core.csproj">
+      <Project>{3c9bf820-f85a-46b9-96f3-903cc294e6fd}</Project>
+      <Name>LoanShark.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
