@@ -1,24 +1,33 @@
 ﻿using LoanShark.Application.Messaging;
 using LoanShark.Application.Origination.Events;
 using LoanShark.Core;
+using LoanShark.Core.Collections.Data;
+using LoanShark.Core.Collections.Domain;
 using LoanShark.Core.Collections.Projections;
 using System;
 
 namespace LoanShark.Application.Collections.EventSubscribers
 {
     public sealed class LoanApplicationAcceptedPaymentRecord : ISubscribeToEvent<LoanApplicationAccepted>
-    {
-        private readonly IReadModelRepository _readModelRepository;
+    {        
+        private readonly IDebtRepository _debtRepository;
+        private readonly IEventPublisher _eventPublisher;
 
-        public LoanApplicationAcceptedPaymentRecord(IReadModelRepository readModelRepository)
+        public LoanApplicationAcceptedPaymentRecord(IDebtRepository debtRepository, IEventPublisher eventPublisher)
         {
-            _readModelRepository = readModelRepository;
+            _debtRepository = debtRepository;
+            _eventPublisher = eventPublisher;
         }
 
-        public void Notify(LoanApplicationAccepted @event)
+        public void Notify(LoanApplicationAccepted loanApplicationAccepted)
         {
-            var debt = new Debt {Id = @event.ApplicationId, Amount = @event.Amount, Due = TimeSource.Now};
-            _readModelRepository.Save(debt);
+            var debt = new Debt(loanApplicationAccepted.ApplicationId);
+
+            var events = debt.Incur(loanApplicationAccepted.Amount);
+            _debtRepository.Save(debt);
+
+            foreach (var @event in events)            
+                _eventPublisher.Publish(@event);
         }
     }
 }

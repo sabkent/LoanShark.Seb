@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Collections\MongoDbProjectionMapping.cs" />
     <Compile Include="Collections\PaypalPaymentGateway.cs" />
+    <Compile Include="Collections\Repositories\DebtRepository.cs" />
     <Compile Include="ContainerModule.cs" />
     <Compile Include="EventSourcedRepository.cs" />
     <Compile Include="MongoDbReadModelRepository.cs" />

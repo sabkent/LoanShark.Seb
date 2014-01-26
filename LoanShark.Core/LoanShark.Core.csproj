@@ -41,12 +41,15 @@
   <ItemGroup>
     <Compile Include="Aggregate.cs" />
     <Compile Include="Collections\Commands\CollectDebt.cs" />
+    <Compile Include="Collections\Data\IDebtRepository.cs" />
     <Compile Include="Collections\Domain\Collection.cs" />
+    <Compile Include="Collections\Domain\Debt.cs" />
     <Compile Include="Collections\Domain\Events\DebtAddedToCollection.cs" />
     <Compile Include="Collections\Domain\Events\DebtCleared.cs" />
     <Compile Include="Collections\Domain\Events\DebtCollectionAttempted.cs" />
     <Compile Include="Collections\Domain\Events\DebtCollectionCreated.cs" />
-    <Compile Include="Collections\Projections\Debt.cs" />
+    <Compile Include="Collections\Domain\Events\DebtIncurred.cs" />
+    <Compile Include="Collections\Projections\OutstandingDebt.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="ICommandValidation.cs" />
     <Compile Include="IEvent.cs" />

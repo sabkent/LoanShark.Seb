@@ -19,10 +19,10 @@ namespace LoanShark.Tests.Collections.Integration.Application.CommandHandlers
         public void Test()
         {
             var count = 10;
-            var debts = Enumerable.Range(1, count).ToList().ConvertAll(index => new Debt { Id = Guid.NewGuid(), Amount = 150 });
+            var debts = Enumerable.Range(1, count).ToList().ConvertAll(index => new OutstandingDebt { Id = Guid.NewGuid(), Amount = 150 });
             
             var readModelRepository = new Mock<IReadModelRepository>();
-            readModelRepository.Setup(repository => repository.GetAll<Debt>(debt => debt.Due.Date == TimeSource.Now.Date))
+            readModelRepository.Setup(repository => repository.GetAll<OutstandingDebt>(debt => debt.Due.Date == TimeSource.Now.Date))
                 .Returns(debts);
 
             //var commandHandler = new CollectDebtHandler(readModelRepository.Object, new CollectionProcessor(new PaypalPaymentGateway()));

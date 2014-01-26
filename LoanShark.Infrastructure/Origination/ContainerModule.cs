@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LoanShark.Core.Collections.Data;
 using LoanShark.Core.Origination.Data;
+using LoanShark.Infrastructure.Collections.Repositories;
 using LoanShark.Infrastructure.Origination.Repositories;
 
 namespace LoanShark.Infrastructure.Origination
@@ -19,6 +21,7 @@ namespace LoanShark.Infrastructure.Origination
         private void RegisterRepositories(ContainerBuilder builder)
         {
             builder.RegisterType<LoanApplicationRepository>().As<ILoanApplicationRepository>();
+            builder.RegisterType<DebtRepository>().As<IDebtRepository>();
         }
     }
 }

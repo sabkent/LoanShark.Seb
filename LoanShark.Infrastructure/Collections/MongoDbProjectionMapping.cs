@@ -8,7 +8,7 @@ namespace LoanShark.Infrastructure.Collections
     {
         public void Run()
         {
-            BsonClassMap.RegisterClassMap<Debt>(cm =>
+            BsonClassMap.RegisterClassMap<OutstandingDebt>(cm =>
             {
                 cm.AutoMap();
                 cm.MapIdProperty(x => x.Id);

@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\Integration\Application\CommandHandlers\CollectDebtHandlerTests.cs" />
+    <Compile Include="Collections\Integration\CreateDebtTests.cs" />
     <Compile Include="Messaging\OctoBusTests.cs" />
     <Compile Include="Origination\Integration\Controllers\ApplyControllerTests.cs" />
     <Compile Include="RabbitTests.cs" />
