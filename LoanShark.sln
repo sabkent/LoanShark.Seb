@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanShark.AuthenticationServer", "LoanShark.AuthenticationServer\LoanShark.AuthenticationServer.csproj", "{2ACE4E2A-46EA-4F17-8319-508BEA35E5D9}"
 EndProject
@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Links.txt = Links.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanShark.Banking.Site", "LoanShark.Banking.Site\LoanShark.Banking.Site.csproj", "{71F9BAEB-F4EC-4C8E-9F2B-8EBEC063FF3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +102,10 @@ Global
 		{F3B574BE-ACF0-4DBD-BADD-F42D9DE5CE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3B574BE-ACF0-4DBD-BADD-F42D9DE5CE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3B574BE-ACF0-4DBD-BADD-F42D9DE5CE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F9BAEB-F4EC-4C8E-9F2B-8EBEC063FF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F9BAEB-F4EC-4C8E-9F2B-8EBEC063FF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F9BAEB-F4EC-4C8E-9F2B-8EBEC063FF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F9BAEB-F4EC-4C8E-9F2B-8EBEC063FF3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{C6DE56A5-EFE0-4FEF-99C8-671CF9D68443} = {E035478C-09B0-4B83-BBAC-F656A7822A1F}
 		{2ACE4E2A-46EA-4F17-8319-508BEA35E5D9} = {E035478C-09B0-4B83-BBAC-F656A7822A1F}
 		{F3B574BE-ACF0-4DBD-BADD-F42D9DE5CE1D} = {E035478C-09B0-4B83-BBAC-F656A7822A1F}
+		{71F9BAEB-F4EC-4C8E-9F2B-8EBEC063FF3A} = {E035478C-09B0-4B83-BBAC-F656A7822A1F}
 		{3CE9ADC5-413C-48A9-875A-A606F22075C6} = {526DFD4A-947E-474D-82E6-A1F83B7A143B}
 		{799D73CB-0253-47EC-983A-623B32363C97} = {526DFD4A-947E-474D-82E6-A1F83B7A143B}
 		{CD07B7D2-08FA-41BF-A027-19423908BF9A} = {526DFD4A-947E-474D-82E6-A1F83B7A143B}

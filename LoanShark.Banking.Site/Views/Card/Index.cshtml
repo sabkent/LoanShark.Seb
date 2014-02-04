@@ -1,0 +1,21 @@
+﻿@model LoanShark.Banking.Site.ViewModels.CreateCard
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+@using (Html.BeginForm())
+{
+    @DateTime.Now
+    <input id="submitCommand" type="submit" value="save"/>
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(function() {
+        //$(window).on('hashchange', function() {
+        //    console.log('hash changed');
+        //    $('form').submit();
+        //});
+    });
+</script>

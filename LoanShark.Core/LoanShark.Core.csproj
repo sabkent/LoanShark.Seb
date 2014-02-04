@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Access\Domain\User.cs" />
+    <Compile Include="Accounts\Receivable\Repayment\Scheduling\Deferral.cs" />
+    <Compile Include="Accounts\Receivable\Repayment\Scheduling\Installment.cs" />
+    <Compile Include="Accounts\Receivable\Repayment\Scheduling\Term.cs" />
     <Compile Include="Aggregate.cs" />
     <Compile Include="Collections\Commands\CollectDebt.cs" />
     <Compile Include="Collections\Data\IDebtRepository.cs" />
@@ -74,7 +78,12 @@
     <Compile Include="ValidationResult.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Accounts\Payable\Deposits\" />
+    <Folder Include="Accounts\Payable\Refunds\" />
+    <Folder Include="Accounts\Receivable\Default\" />
+    <Folder Include="Accounts\Receivable\Fees\" />
     <Folder Include="Collections\Commands\Validators\" />
+    <Folder Include="Origination\Underwriting\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

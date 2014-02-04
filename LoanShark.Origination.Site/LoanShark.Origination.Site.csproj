@@ -178,6 +178,7 @@
     <Compile Include="Components\SignalRBootstrapTask.cs" />
     <Compile Include="Controllers\Api\EventController.cs" />
     <Compile Include="Controllers\ApplyController.cs" />
+    <Compile Include="Controllers\BankingController.cs" />
     <Compile Include="Controllers\DocumentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -254,6 +255,7 @@
     <Content Include="Views\Apply\Processing.cshtml" />
     <Content Include="Views\Apply\Complete.cshtml" />
     <Content Include="Views\Document\Upload.cshtml" />
+    <Content Include="Views\Banking\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LoanShark.Application\LoanShark.Application.csproj">

@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<iframe id="secureFrame" src="http://localhost:64842/card"></iframe>
+
+<input type="text" name="CardNumber" />
+<input id="saveBankingCommand" type="button" value="Save Banking Details"/>
+
+@section scripts
+{   
+    <script>
+
+            //https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage
+            (function () {
+
+                var frame = $('#secureFrame');
+                var contentWnd = frame.attr('contentWindow');
+
+                $(frame.document).ready(function() {
+                    console.log('iframe ready content wnd:'+contentWnd);
+                });
+
+                frame.on('load', function () {
+                
+                    //var hash = contentWnd.window.location.hash;
+
+                    //console.log(hash);
+
+
+                    //console.log('frame loaded ' + frame.attr('src'));
+
+                    //var uriParts = frame.attr('src').split('#');;
+                    //if (uriParts.length > 1)
+                    //    console.log('frame hash tag is: ' + uriParts[1]);
+                });
+
+                $('#saveBankingCommand').on('click', submitSecureFrame);
+
+                function submitSecureFrame() {
+
+                    //var cmd = $('#secureFrame').contents().find('#submitCommand');
+                    //console.log(cmd);
+                
+                    frame.attr('src', frame.attr('src') + '#123');
+                };
+
+                function callCardApi() {
+                    var card = { Number: "" };
+
+                    $.ajax({
+                        url: 'http://localhost:12274/api/cards',
+                        type: 'POST',
+                        data: JSON.stringify(card),
+                        dataType: "json"
+                    }).done(function () {
+                        console.log('done');
+                    });
+
+                };
+
+            });
+    </script>
+}

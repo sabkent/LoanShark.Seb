@@ -24,40 +24,40 @@ namespace LoanShark.Application.Collections.CommandHandlers
 
         public void Handle(CollectDebt applyForLoan)
         {
-            var dueDebts = _readModelRepository.GetAll<Debt>(debt => debt.Due.Date == TimeSource.Now.Date);
+            //var dueDebts = _readModelRepository.GetAll<Debt>(debt => debt.Due.Date == TimeSource.Now.Date);
 
-            foreach (var dueDebt in dueDebts)
-            {
-                var matureDebt = new MatureDebt(dueDebt.Id, dueDebt.Due, dueDebt.Amount);
-                var takePaymentRequest = new TakePaymentRequest(dueDebt.Amount);
-                var takePaymentResponse = _paymentGateway.TakePayment(takePaymentRequest);
-                var events = matureDebt.AddCollectionAttempt(new CollectionAttempt{Id = dueDebt.Id, Success = takePaymentResponse.Succeded});
-                _repository.Save(matureDebt);
+            //foreach (var dueDebt in dueDebts)
+            //{
+            //    var matureDebt = new MatureDebt(dueDebt.Id, dueDebt.Due, dueDebt.Amount);
+            //    var takePaymentRequest = new TakePaymentRequest(dueDebt.Amount);
+            //    var takePaymentResponse = _paymentGateway.TakePayment(takePaymentRequest);
+            //    var events = matureDebt.AddCollectionAttempt(new CollectionAttempt{Id = dueDebt.Id, Success = takePaymentResponse.Succeded});
+            //    _repository.Save(matureDebt);
 
-                events.ToList().ForEach(e => _eventPublisher.Publish(e));
-            }
+            //    events.ToList().ForEach(e => _eventPublisher.Publish(e));
+            //}
         }
 
         public void _Handle(CollectDebt applyForLoan)
         {
-            var dueDebts = _readModelRepository.GetAll<Debt>(debt => debt.Due.Date == TimeSource.Now.Date);
+            //var dueDebts = _readModelRepository.GetAll<Debt>(debt => debt.Due.Date == TimeSource.Now.Date);
 
-            var outstandingDebts =
-                dueDebts.ToList().ConvertAll(debt => new OutstandingDebt {Id = debt.Id, Amount = debt.Amount});
+            //var outstandingDebts =
+            //    dueDebts.ToList().ConvertAll(debt => new OutstandingDebt {Id = debt.Id, Amount = debt.Amount});
 
-            var debtCollection = new DebtCollection(Guid.NewGuid());
+            //var debtCollection = new DebtCollection(Guid.NewGuid());
 
-            debtCollection.AddOutstandingDebts(outstandingDebts);
+            //debtCollection.AddOutstandingDebts(outstandingDebts);
             
-            for (var attempCount = 0; attempCount < 3; attempCount++)
-            {
-                var remainingDebts = debtCollection.GetRemaining();
+            //for (var attempCount = 0; attempCount < 3; attempCount++)
+            //{
+            //    var remainingDebts = debtCollection.GetRemaining();
                     
-                if (remainingDebts.Count == 0) break;
-                var collectionAttempts = _collectionProcessor.Process(remainingDebts);
+            //    if (remainingDebts.Count == 0) break;
+            //    var collectionAttempts = _collectionProcessor.Process(remainingDebts);
                 
-                debtCollection.AddCollectionAttempts(collectionAttempts.ToList());
-            }
+            //    debtCollection.AddCollectionAttempts(collectionAttempts.ToList());
+            //}
         }
 
         
