@@ -25,6 +25,8 @@ namespace LoanShark.Messaging.Host
 
         public void StartEndPoint()
         {
+            
+
             SetupContainer();
             BootStrap();
             SetupSubscriptions();

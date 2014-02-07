@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using LoanShark.Application.Messaging;
+using LoanShark.Application.Origination.Events;
 using LoanShark.Core;
 using LoanShark.Core.Origination.Commands;
 using LoanShark.Origination.Site.Components;
@@ -71,6 +72,11 @@ namespace LoanShark.Origination.Site.Controllers
             var result = Validate(loanApplication);
 
             return Json(result);
+        }
+
+        public void SendSignalR()
+        {
+            DependencyResolver.Current.GetService<IEventPublisher>().Publish(new LoanApplicationAccepted(Guid.NewGuid(), Guid.NewGuid(), 100));
         }
 
         private FluentValidation.Results.ValidationResult Validate(LoanApplication loanApplication)
