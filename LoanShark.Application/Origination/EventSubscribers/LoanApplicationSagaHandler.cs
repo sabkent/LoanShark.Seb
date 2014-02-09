@@ -1,6 +1,6 @@
 ﻿using System;
-using LoanShark.Application.Messaging;
 using LoanShark.Application.Origination.Events;
+using LoanShark.Messaging;
 
 namespace LoanShark.Application.Origination.EventSubscribers
 {

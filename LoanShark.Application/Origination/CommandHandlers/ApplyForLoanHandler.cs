@@ -4,6 +4,7 @@ using LoanShark.Core;
 using LoanShark.Core.Origination.Commands;
 using LoanShark.Core.Origination.Data;
 using LoanShark.Core.Origination.Domain;
+using LoanShark.Messaging;
 
 namespace LoanShark.Application.Origination.CommandHandlers
 {

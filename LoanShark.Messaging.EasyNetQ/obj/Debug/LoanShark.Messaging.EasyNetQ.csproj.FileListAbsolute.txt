@@ -21,18 +21,14 @@ C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Me
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Messaging.EasyNetQ.pdb
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\Autofac.dll
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\EasyNetQ.dll
-C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Application.dll
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Core.dll
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\Newtonsoft.Json.dll
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\RabbitMQ.Client.dll
-C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\System.Net.Http.Formatting.dll
-C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Application.pdb
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Core.pdb
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\Autofac.xml
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\EasyNetQ.xml
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\Newtonsoft.Json.xml
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\RabbitMQ.Client.xml
-C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\System.Net.Http.Formatting.xml
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\obj\Debug\LoanShark.Messaging.EasyNetQ.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\obj\Debug\LoanShark.Messaging.EasyNetQ.dll
 C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\obj\Debug\LoanShark.Messaging.EasyNetQ.pdb
@@ -55,3 +51,5 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\System.
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\obj\Debug\LoanShark.Messaging.EasyNetQ.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\obj\Debug\LoanShark.Messaging.EasyNetQ.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\obj\Debug\LoanShark.Messaging.EasyNetQ.pdb
+C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Messaging.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.EasyNetQ\bin\Debug\LoanShark.Messaging.pdb

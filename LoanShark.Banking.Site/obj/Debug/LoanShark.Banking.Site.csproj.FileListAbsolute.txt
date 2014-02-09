@@ -49,3 +49,4 @@ C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\Newtonsoft.Json.xml
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\Antlr3.Runtime.pdb
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\obj\Debug\LoanShark.Banking.Site.dll
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\obj\Debug\LoanShark.Banking.Site.pdb
+C:\Development\LoanShark.Seb\LoanShark.Banking.Site\obj\Debug\LoanShark.Banking.Site.csprojResolveAssemblyReference.cache

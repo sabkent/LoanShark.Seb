@@ -5,6 +5,7 @@ using System.Web.Http;
 using LoanShark.Api.Representations.Originations;
 using LoanShark.Application.Messaging;
 using LoanShark.Core.Origination.Commands;
+using LoanShark.Messaging;
 
 namespace LoanShark.Api.Controllers.Origination
 {
@@ -19,8 +20,6 @@ namespace LoanShark.Api.Controllers.Origination
         public HttpResponseMessage Get(Guid applicationId)
         {
             var loanApplication = new LoanApplication();
-
-            
 
             return Request.CreateResponse(HttpStatusCode.OK, loanApplication);
         }

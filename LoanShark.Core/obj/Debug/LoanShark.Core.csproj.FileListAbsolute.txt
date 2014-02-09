@@ -12,4 +12,3 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Core\bin\Debug\LoanShark.Core.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Core\obj\Debug\LoanShark.Core.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Core\obj\Debug\LoanShark.Core.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Core\obj\Debug\LoanShark.Core.pdb
-C:\Development\LoanShark.Seb\LoanShark.Core\obj\Debug\LoanShark.Core.csprojResolveAssemblyReference.cache

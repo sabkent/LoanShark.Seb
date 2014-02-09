@@ -61,13 +61,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LoanShark.Application\LoanShark.Application.csproj">
-      <Project>{6a57a665-4175-4825-ac75-b788f7a8dd96}</Project>
-      <Name>LoanShark.Application</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LoanShark.Core\LoanShark.Core.csproj">
       <Project>{3c9bf820-f85a-46b9-96f3-903cc294e6fd}</Project>
       <Name>LoanShark.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Messaging\LoanShark.Messaging.csproj">
+      <Project>{3ce9adc5-413c-48a9-875a-a606f22075c6}</Project>
+      <Name>LoanShark.Messaging</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

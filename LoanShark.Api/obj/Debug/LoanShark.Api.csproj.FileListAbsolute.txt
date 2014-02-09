@@ -263,3 +263,5 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Application.pdb
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Core.pdb
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.pdb

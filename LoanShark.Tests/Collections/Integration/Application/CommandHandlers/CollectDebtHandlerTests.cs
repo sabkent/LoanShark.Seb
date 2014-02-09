@@ -1,4 +1,5 @@
 ﻿using LoanShark.Application;
+using LoanShark.Application.Collections;
 using LoanShark.Application.Collections.CommandHandlers;
 using LoanShark.Core;
 using LoanShark.Core.Collections.Commands;
@@ -22,13 +23,16 @@ namespace LoanShark.Tests.Collections.Integration.Application.CommandHandlers
             var debts = Enumerable.Range(1, count).ToList().ConvertAll(index => new OutstandingDebt { Id = Guid.NewGuid(), Amount = 150 });
             
             var readModelRepository = new Mock<IReadModelRepository>();
+            var paymentGateway = new Mock<IPaymentGateway>();
             readModelRepository.Setup(repository => repository.GetAll<OutstandingDebt>(debt => debt.Due.Date == TimeSource.Now.Date))
                 .Returns(debts);
+
+            var collectDebtHandler = new CollectDebtHandler(readModelRepository.Object, paymentGateway.Object);
 
             //var commandHandler = new CollectDebtHandler(readModelRepository.Object, new CollectionProcessor(new PaypalPaymentGateway()));
 
             var stopWatch = Stopwatch.StartNew();
-            //commandHandler.Handle(new CollectDebt());
+            collectDebtHandler.Handle(new CollectDebt());
             stopWatch.Stop();
             Console.WriteLine("Handle collect {0} debts took {1}", count, stopWatch.Elapsed);
         }

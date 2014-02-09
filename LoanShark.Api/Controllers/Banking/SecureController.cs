@@ -8,8 +8,6 @@ namespace LoanShark.Api.Controllers.Banking
 {
     public class SecureController : Controller
     {
-        //
-        // GET: /Secure/
         public ActionResult Index()
         {
             return View();

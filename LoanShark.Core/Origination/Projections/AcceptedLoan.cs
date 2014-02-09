@@ -10,5 +10,6 @@ namespace LoanShark.Core.Origination.Projections
     {
         public DateTime Requested { get; set; }
         public Guid ApplicationId { get; set; }
+        public string FirstName { get; set; }
     }
 }

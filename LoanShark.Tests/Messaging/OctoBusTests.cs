@@ -14,9 +14,7 @@ namespace LoanShark.Tests.Messaging
         [Test]
         public void PublishMessage()
         {
-            var bus = new OctoBus();
-
-            bus.Publish(new MyMessage());
+            
         }
 
         public class MyMessage

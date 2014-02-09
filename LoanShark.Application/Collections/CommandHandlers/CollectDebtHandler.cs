@@ -5,6 +5,7 @@ using LoanShark.Core.Collections.Domain;
 using LoanShark.Core.Collections.Projections;
 using System;
 using System.Linq;
+using LoanShark.Messaging;
 
 namespace LoanShark.Application.Collections.CommandHandlers
 {

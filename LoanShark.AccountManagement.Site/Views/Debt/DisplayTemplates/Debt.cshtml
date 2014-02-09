@@ -1,0 +1,10 @@
+﻿@model LoanShark.AccountManagement.Site.ViewModels.Debt
+@{
+    Layout = null;
+}
+<div>
+    <a href="@Url.Action("Index", new {Model.Id})">
+        <span>@Model.Amount.ToString("c")</span>
+        <span>@Model.DueDate</span>
+    </a>
+</div>

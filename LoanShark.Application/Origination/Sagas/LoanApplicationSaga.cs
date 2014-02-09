@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LoanShark.Application.Messaging;
 using LoanShark.Application.Origination.Events;
+using LoanShark.Messaging;
 
 namespace LoanShark.Application.Origination.Sagas
 {

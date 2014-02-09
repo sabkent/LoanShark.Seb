@@ -153,7 +153,6 @@ C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Antlr3.Runtime.p
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Org.Mentalis.Security.Cryptography.xml
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Mono.Math.xml
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.csproj.App.config
-C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.dll
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\LoanShark.AuthenticationServer.dll.config
@@ -235,3 +234,4 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanS
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.pdb
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.csprojResolveAssemblyReference.cache

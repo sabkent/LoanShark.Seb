@@ -201,6 +201,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\Accounts\DebtsController.cs" />
     <Compile Include="Controllers\Banking\CardsController.cs" />
     <Compile Include="Controllers\Banking\SecureController.cs" />
     <Compile Include="Controllers\Origination\ApplicationController.cs" />
@@ -208,7 +209,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Representations\Accounts\Debt.cs" />
+    <Compile Include="Representations\Link.cs" />
     <Compile Include="Representations\Originations\LoanApplication.cs" />
+    <Compile Include="Representations\Representation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -238,6 +242,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\Accounts\Accounting\" />
     <Folder Include="Representations\Banking\" />
   </ItemGroup>
   <ItemGroup>
@@ -251,6 +256,10 @@
     <ProjectReference Include="..\LoanShark.Core\LoanShark.Core.csproj">
       <Project>{3c9bf820-f85a-46b9-96f3-903cc294e6fd}</Project>
       <Name>LoanShark.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Messaging\LoanShark.Messaging.csproj">
+      <Project>{3ce9adc5-413c-48a9-875a-a606f22075c6}</Project>
+      <Name>LoanShark.Messaging</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

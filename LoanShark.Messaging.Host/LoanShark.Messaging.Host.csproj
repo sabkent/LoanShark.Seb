@@ -96,6 +96,10 @@
       <Project>{cd07b7d2-08fa-41bf-a027-19423908bf9a}</Project>
       <Name>LoanShark.Messaging.EasyNetQ</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Messaging\LoanShark.Messaging.csproj">
+      <Project>{3ce9adc5-413c-48a9-875a-a606f22075c6}</Project>
+      <Name>LoanShark.Messaging</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">

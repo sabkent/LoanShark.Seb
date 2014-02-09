@@ -1,5 +1,4 @@
 ﻿using Autofac;
-using Autofac.Core;
 using LoanShark.Application.Messaging;
 using LoanShark.Application.Origination.CommandHandlers;
 using LoanShark.Application.Origination.Events;
@@ -7,6 +6,7 @@ using LoanShark.Application.Origination.EventSubscribers;
 using LoanShark.Core;
 using LoanShark.Core.Origination.Commands;
 using LoanShark.Core.Origination.Commands.Validators;
+using LoanShark.Messaging;
 
 namespace LoanShark.Application
 {
@@ -27,6 +27,7 @@ namespace LoanShark.Application
             builder.RegisterType<CommandValidation>().As<ICommandValidation>();
 
             builder.RegisterType<ApplyForLoanInputValidator>().As<IValidateCommand<ApplyForLoan>>();
+            builder.RegisterType<ApplyForLoanDuplicateValidator>().As<IValidateCommand<ApplyForLoan>>();
         }
     }
 }
