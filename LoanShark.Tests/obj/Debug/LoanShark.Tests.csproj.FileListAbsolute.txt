@@ -238,3 +238,5 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Tests\bin\Debug\tr\FluentValidation.
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Tests\obj\Debug\LoanShark.Tests.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Tests\obj\Debug\LoanShark.Tests.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Tests\obj\Debug\LoanShark.Tests.pdb
+C:\Development\LoanShark.Seb\LoanShark.Tests\bin\Debug\LoanShark.Messaging.ClientSide.dll
+C:\Development\LoanShark.Seb\LoanShark.Tests\bin\Debug\LoanShark.Messaging.ClientSide.pdb

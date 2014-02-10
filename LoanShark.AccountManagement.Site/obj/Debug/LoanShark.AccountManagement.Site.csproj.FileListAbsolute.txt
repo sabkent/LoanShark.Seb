@@ -35,7 +35,6 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.Acco
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AccountManagement.Site.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Web.Infrastructure.dll
-C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Newtonsoft.Json.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Net.Http.Formatting.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Helpers.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Http.dll
@@ -54,12 +53,10 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Raz
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.WebPages.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.WebPages.Deployment.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.WebPages.Razor.xml
-C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Newtonsoft.Json.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Net.Http.Formatting.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Http.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Http.WebHost.xml
-C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AccountManagement.Site.dll.config
@@ -94,3 +91,4 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.We
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.pdb
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.csprojResolveAssemblyReference.cache

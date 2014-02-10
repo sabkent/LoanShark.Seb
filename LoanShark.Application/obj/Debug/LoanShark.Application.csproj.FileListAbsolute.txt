@@ -37,3 +37,14 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Application\bin\Debug\Autofac.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Application\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Application\bin\Debug\System.Net.Http.Formatting.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Application\obj\Debug\LoanShark.Application.pdb
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\LoanShark.Messaging.ClientSide.dll
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\LoanShark.Messaging.ClientSide.pdb
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\Microsoft.Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\Microsoft.Owin.Security.dll
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\Microsoft.Owin.xml
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\Microsoft.Owin.Security.xml
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\LoanShark.Messaging.dll
+C:\Development\LoanShark.Seb\LoanShark.Application\bin\Debug\LoanShark.Messaging.pdb

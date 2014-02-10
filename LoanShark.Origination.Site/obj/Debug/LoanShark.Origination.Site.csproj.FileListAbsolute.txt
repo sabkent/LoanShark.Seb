@@ -259,3 +259,7 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark.Origination.Site.csproj.GenerateResource.Cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark.Origination.Site.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark.Origination.Site.pdb
+C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\LoanShark.Messaging.ClientSide.dll
+C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\LoanShark.Messaging.ClientSide.pdb
+C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\LoanShark.Messaging.dll
+C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\LoanShark.Messaging.pdb

@@ -1,9 +1,11 @@
-﻿using System.IO;
-using System.Net.Http.Headers;
-using LoanShark.Application.Messaging;
-using LoanShark.Application.Origination.Events;
-using System.Net.Http;
+﻿using LoanShark.Application.Origination.Events;
+using LoanShark.Messaging;
 using Newtonsoft.Json;
+using System;
+using System.IO;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading;
 
 namespace LoanShark.Application.Origination.EventSubscribers
 {
@@ -11,7 +13,9 @@ namespace LoanShark.Application.Origination.EventSubscribers
     {
         public async void Notify(LoanApplicationAccepted @event)
         {
-            using(var httpClient = new HttpClient()) //use factory to buld httpclient which sets auth token etc
+            Thread.Sleep(TimeSpan.FromSeconds(2));
+
+            using (var httpClient = new HttpClient()) //use factory to buld httpclient which sets auth token etc
             {
                 //TODO: how to manage uri for apis.  ApiEndpointFactory.GetFor(EndPoints.Originration)
 
@@ -24,7 +28,7 @@ namespace LoanShark.Application.Origination.EventSubscribers
                         serializer.Serialize(writer, @event);
                 });
                 content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-                await httpClient.PostAsync("http://localhost:12277/api/event/loan-application-accepted", content);
+                var response = await httpClient.PostAsync("http://localhost:12277/api/event/loan-application-accepted", content);
             }
         }
     }

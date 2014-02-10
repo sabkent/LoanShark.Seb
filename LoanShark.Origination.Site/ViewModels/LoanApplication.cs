@@ -8,5 +8,7 @@ namespace LoanShark.Origination.Site.ViewModels
         [Display(ResourceType = typeof(TitlesAndLabels), Name = "LoanApplication_FirstName")]
         public string FirstName { get; set; }
         public decimal Amount { get; set; }
+
+        public RemunerationViewModel Remuneration { get; set; }
     }
 }

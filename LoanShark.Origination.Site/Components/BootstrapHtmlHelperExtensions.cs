@@ -11,10 +11,10 @@ namespace LoanShark.Origination.Site.Components
         {
             var tagBuilder = new TagBuilder("div");
             tagBuilder.AddCssClass("form-group");
-            tagBuilder.InnerHtml = htmlHelper.LabelFor(modelExpression, new { @class = "control-label col-md-2" }).ToHtmlString();
+            tagBuilder.InnerHtml = htmlHelper.LabelFor(modelExpression, new { @class = "control-label col-md-5" }).ToHtmlString();
 
             var innerDiv = new TagBuilder("div");
-            innerDiv.AddCssClass("col-md-10");
+            innerDiv.AddCssClass("col-md-5");
 
             innerDiv.InnerHtml = htmlHelper.EditorFor(modelExpression).ToHtmlString();
             innerDiv.InnerHtml += htmlHelper.ValidationMessageFor(modelExpression);

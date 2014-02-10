@@ -52,10 +52,10 @@
       <HintPath>..\packages\Autofac.3.3.0\lib\net40\Autofac.dll</HintPath>
     </Reference>
     <Reference Include="EasyNetQ">
-      <HintPath>..\packages\EasyNetQ.0.26.1.185\lib\net40\EasyNetQ.dll</HintPath>
+      <HintPath>..\packages\EasyNetQ.0.26.5.208\lib\net40\EasyNetQ.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RabbitMQ.Client">
       <HintPath>..\packages\RabbitMQ.Client.3.1.5\lib\net30\RabbitMQ.Client.dll</HintPath>
@@ -95,6 +95,10 @@
     <ProjectReference Include="..\LoanShark.Messaging.EasyNetQ\LoanShark.Messaging.EasyNetQ.csproj">
       <Project>{cd07b7d2-08fa-41bf-a027-19423908bf9a}</Project>
       <Name>LoanShark.Messaging.EasyNetQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.Messaging\LoanShark.Messaging.csproj">
+      <Project>{3ce9adc5-413c-48a9-875a-a606f22075c6}</Project>
+      <Name>LoanShark.Messaging</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

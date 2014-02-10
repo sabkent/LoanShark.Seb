@@ -2,6 +2,7 @@
 using Autofac.Core;
 using LoanShark.Application.Messaging;
 using LoanShark.Core.Collections.Domain.Events;
+using LoanShark.Messaging;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;

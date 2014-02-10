@@ -4,6 +4,7 @@ using LoanShark.Application.Collections.EventSubscribers;
 using LoanShark.Application.Messaging;
 using LoanShark.Application.Origination.Events;
 using LoanShark.Core.Collections.Commands;
+using LoanShark.Messaging;
 
 namespace LoanShark.Application.Collections
 {

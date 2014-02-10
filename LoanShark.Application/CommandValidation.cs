@@ -17,7 +17,7 @@ namespace LoanShark.Application
         public IEnumerable<ValidationResult> Validate<T>(T command)
         {
             var validators = _componentContext.Resolve<IEnumerable<IValidateCommand<T>>>();
-            return validators.SelectMany(validator => validator.Validate(command));
+            return validators.AsParallel().SelectMany(validator => validator.Validate(command));
         }
     }
 }

@@ -3,10 +3,8 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using LoanShark.Application.Origination.Events;
-using Autofac;
+using LoanShark.Messaging.ClientSide;
 using Microsoft.AspNet.SignalR;
-using Microsoft.AspNet.SignalR.Infrastructure;
-using LoanApplicationHub = LoanShark.Origination.Site.Hubs.LoanApplication;
 
 namespace LoanShark.Origination.Site.Controllers.Api
 {
@@ -28,8 +26,12 @@ namespace LoanShark.Origination.Site.Controllers.Api
         public void Post(LoanApplicationAccepted loanApplicationAccepted)
         {
             //var hub = GlobalHost.ConnectionManager.GetHubContext<LoanShark.Origination.Site.Hubs.LoanApplication>();
-            var connectionManager = GlobalHost.DependencyResolver.GetService(typeof (IConnectionManager)) as IConnectionManager;
-            var hub = connectionManager.GetHubContext<LoanApplicationHub>();
+            //var connectionManager = GlobalHost.DependencyResolver.GetService(typeof (IConnectionManager)) as IConnectionManager;
+            //var hub = _connectionManager.GetHubContext<LoanApplicationHub>();
+
+            //var hub = GlobalHost.ConnectionManager.GetHubContext<LoanApplicationHub>();
+            var hub = GlobalHost.ConnectionManager.GetHubContext<LoanApplicationsHub>();
+            //hub.Clients.All.complete();
             hub.Clients.All.complete();
         }
 

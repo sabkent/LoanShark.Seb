@@ -27,7 +27,6 @@ C:\Development\LoanShark.Seb\LoanShark.UI\bin\Debug\Microsoft.AspNet.SignalR.Cor
 C:\Development\LoanShark.Seb\LoanShark.UI\bin\Debug\Microsoft.Owin.xml
 C:\Development\LoanShark.Seb\LoanShark.UI\bin\Debug\Microsoft.Owin.Security.xml
 C:\Development\LoanShark.Seb\LoanShark.UI\bin\Debug\Newtonsoft.Json.xml
-C:\Development\LoanShark.Seb\LoanShark.UI\obj\Debug\LoanShark.UI.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.UI\obj\Debug\LoanShark.UI.dll
 C:\Development\LoanShark.Seb\LoanShark.UI\obj\Debug\LoanShark.UI.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.UI\bin\Debug\LoanShark.UI.dll

@@ -26,9 +26,9 @@ namespace LoanShark.Infrastructure
                 {
                     command.Parameters.AddWithValue("StreamId", streamId.ToString());
                     var current = command.ExecuteScalar();
-                    existingSequence = current == null ? (long?)null : (long)current;
+                    existingSequence = current == null ? (long?)null : (long?)current;
 
-                    if (existingSequence != null && ((long)existingSequence) > expectedInitialVersion)
+                    if (existingSequence != null && existingSequence > expectedInitialVersion)
                         throw new Exception(""); //ConcurrencyException();
                 }
 

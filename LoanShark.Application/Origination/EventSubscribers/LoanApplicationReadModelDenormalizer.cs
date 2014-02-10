@@ -3,6 +3,7 @@ using LoanShark.Application.Origination.Events;
 using LoanShark.Core;
 using LoanShark.Core.Origination.Projections;
 using System;
+using LoanShark.Messaging;
 
 namespace LoanShark.Application.Origination.EventSubscribers
 {
@@ -16,7 +17,7 @@ namespace LoanShark.Application.Origination.EventSubscribers
 
         public void Notify(LoanApplicationAccepted @event)
         {
-            _readModelRepository.Save(new AcceptedLoan{ApplicationId = @event.ApplicationId, Requested = DateTime.Now});
+            _readModelRepository.Save(new AcceptedLoan{ApplicationId = @event.ApplicationId, Requested = DateTime.Now, FirstName = "seb"});
         }
     }
 }

@@ -110,7 +110,6 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\DotNetOpenAuth.OpenId.UI.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\DotNetOpenAuth.OpenIdInfoCard.UI.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\DotNetOpenAuth.OpenIdOAuth.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Web.Infrastructure.dll
-C:\Development\LoanShark.Seb\LoanShark.Api\bin\Newtonsoft.Json.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Extensions.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Formatting.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Primitives.dll
@@ -157,7 +156,6 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.Razor.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.Deployment.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.Razor.xml
-C:\Development\LoanShark.Seb\LoanShark.Api\bin\Newtonsoft.Json.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Antlr3.Runtime.pdb
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Formatting.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.Http.xml
@@ -259,3 +257,11 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\obj\Debug\LoanShark.Api.csproj.A
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\obj\Debug\LoanShark.Api.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\obj\Debug\LoanShark.Api.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\obj\Debug\LoanShark.Api.pdb
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Application.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Core.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Application.pdb
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Core.pdb
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.pdb

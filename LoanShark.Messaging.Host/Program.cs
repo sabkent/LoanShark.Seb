@@ -1,7 +1,6 @@
 ﻿using Autofac;
 using EasyNetQ;
 using LoanShark.Application;
-using LoanShark.Application.Messaging;
 using LoanShark.Application.Origination.Events;
 using LoanShark.Core.Origination.Commands;
 using System;
@@ -25,6 +24,8 @@ namespace LoanShark.Messaging.Host
 
         public void StartEndPoint()
         {
+            
+
             SetupContainer();
             BootStrap();
             SetupSubscriptions();

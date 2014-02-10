@@ -1,0 +1,14 @@
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\LoanShark.Messaging.ClientSide.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\LoanShark.Messaging.ClientSide.pdb
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\obj\Debug\LoanShark.Messaging.ClientSide.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\obj\Debug\LoanShark.Messaging.ClientSide.pdb
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Microsoft.Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Microsoft.Owin.Security.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Newtonsoft.Json.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Microsoft.Owin.xml
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Microsoft.Owin.Security.xml
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Newtonsoft.Json.xml
+C:\Development\LoanShark.Seb\LoanShark.Messaging.ClientSide\obj\Debug\LoanShark.Messaging.ClientSide.csprojResolveAssemblyReference.cache

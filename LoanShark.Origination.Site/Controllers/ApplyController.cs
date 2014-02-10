@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
-using LoanShark.Application.Messaging;
 using LoanShark.Core;
 using LoanShark.Core.Origination.Commands;
+using LoanShark.Core.Origination.Projections;
+using LoanShark.Messaging;
 using LoanShark.Origination.Site.Components;
 using LoanShark.Origination.Site.Components.Validators;
 using LoanShark.Origination.Site.ViewModels;
@@ -26,6 +27,7 @@ namespace LoanShark.Origination.Site.Controllers
 
         public ActionResult Index()
         {
+            //var acceptedLoans = _readModelRepository.GetAll<AcceptedLoan>(a => a.FirstName == "seb");
             return View();
         }
 
@@ -57,9 +59,6 @@ namespace LoanShark.Origination.Site.Controllers
         {
             return View();
         }
-
-
-        
 
         public ActionResult Complete(Guid id)
         {
