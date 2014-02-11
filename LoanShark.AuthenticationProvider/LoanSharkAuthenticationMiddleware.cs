@@ -13,7 +13,7 @@ namespace LoanShark.AuthenticationProvider
 
         protected override AuthenticationHandler<LoanSharkAuthenticationOptions> CreateHandler()
         {
-            
+            return new LoanSharkAuthenticationHandler();
         }
     }
 }

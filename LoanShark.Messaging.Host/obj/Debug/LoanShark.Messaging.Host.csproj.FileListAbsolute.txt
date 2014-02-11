@@ -84,3 +84,5 @@ C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\bin\Debug\LoanShark.Messag
 C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\bin\Debug\System.Net.Http.Formatting.dll
 C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\bin\Debug\LoanShark.Messaging.pdb
 C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\bin\Debug\System.Net.Http.Formatting.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.Host\bin\Debug\LoanShark.Messaging.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.Host\bin\Debug\LoanShark.Messaging.pdb

@@ -1,4 +1,9 @@
-﻿@model LoanShark.Origination.Site.ViewModels.RemunerationViewModel
-@Scripts.Render("~/bundles/jqueryui")
+﻿@model RemunerationViewModel
 
-@Html.TextBoxFor(x=>x.NextPayDate, new{@class="datepciker"})
+@Html.TextBoxFor(x=>x.NextPayDate, new{id="calendar"})
+
+<script>
+    $(function() {
+        //$('#calendar').fullCalendar();
+    });
+</script>

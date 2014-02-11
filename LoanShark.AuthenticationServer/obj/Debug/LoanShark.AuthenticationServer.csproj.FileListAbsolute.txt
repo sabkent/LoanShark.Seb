@@ -235,3 +235,14 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanS
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.pdb
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\obj\Debug\LoanShark.AuthenticationServer.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\LoanShark.AuthenticationProvider.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Owin.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\LoanShark.AuthenticationProvider.pdb
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.OAuth.xml

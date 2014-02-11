@@ -195,7 +195,6 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\DotNetOpenAuth.OpenIdOAuth.d
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Application.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Core.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Web.Infrastructure.dll
-C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Newtonsoft.Json.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Extensions.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Formatting.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Primitives.dll
@@ -245,7 +244,6 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Web.Razor.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.Razor.xml
-C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Newtonsoft.Json.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Antlr3.Runtime.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Formatting.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\System.Web.Http.xml
@@ -265,3 +263,16 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Core.pdb
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.pdb
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Messaging.pdb
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\LoanShark.AuthenticationProvider.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Owin.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\LoanShark.AuthenticationProvider.pdb
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.xml

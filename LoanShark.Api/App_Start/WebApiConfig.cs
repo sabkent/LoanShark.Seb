@@ -19,6 +19,8 @@ namespace LoanShark.Api
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.MessageHandlers.Add(new TokenValidator());
         }
     }
 }

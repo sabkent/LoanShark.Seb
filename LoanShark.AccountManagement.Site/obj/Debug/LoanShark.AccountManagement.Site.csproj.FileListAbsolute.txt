@@ -64,7 +64,6 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AccountManagement.Site.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Web.Infrastructure.dll
-C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Newtonsoft.Json.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Net.Http.Formatting.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Helpers.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Http.dll
@@ -83,7 +82,6 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.We
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.WebPages.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.WebPages.Razor.xml
-C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Newtonsoft.Json.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Net.Http.Formatting.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Http.xml
@@ -92,3 +90,15 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\Loa
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.csprojResolveAssemblyReference.cache
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AuthenticationProvider.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Owin.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AuthenticationProvider.pdb
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Newtonsoft.Json.xml
