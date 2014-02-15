@@ -1,25 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Infrastructure;
+using Microsoft.Owin.Security.OAuth;
 
 namespace LoanShark.AuthenticationProvider
 {
     public class LoanSharkAuthenticationHandler : AuthenticationHandler<LoanSharkAuthenticationOptions>
     {
         
-        protected override async Task<AuthenticationTicket> AuthenticateCoreAsync()
+        protected override Task<AuthenticationTicket> AuthenticateCoreAsync()
         {
-            return new AuthenticationTicket(new ClaimsIdentity("LoanShark"), null);
-        }
-
-        protected override Task ApplyResponseChallengeAsync()
-        {
-            return Task.FromResult<object>(null);
+            
+            throw new NotImplementedException();
         }
     }
 }

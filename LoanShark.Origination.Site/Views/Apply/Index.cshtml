@@ -26,25 +26,15 @@
         <div class="col-md-5">
             <div class="form-horizontal">
                 <h4>Next pay day</h4>
-                @*@Html.EditorFor(x => x.Remuneration)*@
+                @Html.EditorFor(x => x.Remuneration)
             </div>
         </div>
     </div>
 }
-@section Scripts {
+
+@section scripts{
     @Scripts.Render("~/bundles/jqueryval")
-    @Scripts.Render("~/bundles/angular")
-    <script>
-
-        
-        $(function () {
-            //$('.datepicker').datepicker();
-        });
-    </script>
-
 }
-
-
 
 
 

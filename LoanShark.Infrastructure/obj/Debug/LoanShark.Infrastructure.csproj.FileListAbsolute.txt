@@ -34,6 +34,10 @@ C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\Newtonsoft.Json.
 C:\Development\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.dll
 C:\Development\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.pdb
+C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Messaging.dll
+C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\System.Net.Http.Formatting.dll
+C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Messaging.pdb
+C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\System.Net.Http.Formatting.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Infrastructure.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Infrastructure.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\Autofac.dll
@@ -42,6 +46,7 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.C
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\MongoDB.Bson.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\MongoDB.Driver.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Messaging.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\System.Net.Http.Formatting.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Application.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Core.pdb
@@ -49,11 +54,8 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\Autofac.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\MongoDB.Bson.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\MongoDB.Driver.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Messaging.pdb
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\System.Net.Http.Formatting.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.pdb
-C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Messaging.dll
-C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\System.Net.Http.Formatting.dll
-C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\LoanShark.Messaging.pdb
-C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\System.Net.Http.Formatting.xml
