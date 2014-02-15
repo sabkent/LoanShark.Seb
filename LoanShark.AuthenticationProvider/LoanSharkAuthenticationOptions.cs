@@ -1,9 +1,4 @@
 ﻿using Microsoft.Owin.Security;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LoanShark.AuthenticationProvider
 {
@@ -12,7 +7,8 @@ namespace LoanShark.AuthenticationProvider
         public LoanSharkAuthenticationOptions()
             : base("LoanShark")
         {
-            
+            AuthenticationMode = AuthenticationMode.Passive;
+            Description.Caption = "LoanShark";
         }
     }
 }

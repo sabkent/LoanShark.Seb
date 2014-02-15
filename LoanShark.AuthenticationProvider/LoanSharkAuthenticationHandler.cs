@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Owin.Security;
@@ -11,9 +12,14 @@ namespace LoanShark.AuthenticationProvider
     public class LoanSharkAuthenticationHandler : AuthenticationHandler<LoanSharkAuthenticationOptions>
     {
         
-        protected override Task<AuthenticationTicket> AuthenticateCoreAsync()
+        protected override async Task<AuthenticationTicket> AuthenticateCoreAsync()
         {
-            throw new NotImplementedException();
+            return new AuthenticationTicket(new ClaimsIdentity("LoanShark"), null);
+        }
+
+        protected override Task ApplyResponseChallengeAsync()
+        {
+            return Task.FromResult<object>(null);
         }
     }
 }

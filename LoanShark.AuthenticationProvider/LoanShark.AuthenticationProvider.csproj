@@ -53,6 +53,7 @@
     <Reference Include="System.IdentityModel.Tokens.Jwt">
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.1.0.0\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -60,10 +61,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiClient.cs" />
+    <Compile Include="ApiClientBuilder.cs" />
     <Compile Include="AppBuilderExtensions.cs" />
     <Compile Include="LoanSharkAuthenticationHandler.cs" />
     <Compile Include="LoanSharkAuthenticationMiddleware.cs" />
     <Compile Include="LoanSharkAuthenticationOptions.cs" />
+    <Compile Include="LoanSharkAuthorizationServerProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
