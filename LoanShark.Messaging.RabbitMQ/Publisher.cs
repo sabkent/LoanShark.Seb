@@ -20,7 +20,7 @@ namespace LoanShark.Messaging.RabbitMQ
         {
             _connectionFactory = new ConnectionFactory
             {
-                HostName = "192.168.220.30",
+                HostName = "localhost",
                 UserName = "guest",
                 Password = "guest"
             };

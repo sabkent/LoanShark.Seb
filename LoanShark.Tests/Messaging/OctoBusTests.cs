@@ -1,4 +1,6 @@
-﻿using LoanShark.Messaging;
+﻿using LoanShark.Core.Origination.Commands;
+using LoanShark.Messaging;
+using LoanShark.Messaging.RabbitMQ;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -14,7 +16,7 @@ namespace LoanShark.Tests.Messaging
         [Test]
         public void PublishMessage()
         {
-            
+            new Publisher().Send(new ApplyForLoan());
         }
 
         public class MyMessage

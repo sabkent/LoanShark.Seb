@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using LoanShark.Core.Origination.Domain.Events;
 
 namespace LoanShark.Core.Origination.Domain
@@ -15,6 +17,14 @@ namespace LoanShark.Core.Origination.Domain
             //if(loan.sts != deferr)
 
             //apply(LoanWasDefereredEvent)
+        }
+
+        public IEnumerable<IEvent> ComplexProcess()
+        {
+            return new List<IEvent>();
+
+
+
         }
 
         public Applicant Applicant { get; set; }
