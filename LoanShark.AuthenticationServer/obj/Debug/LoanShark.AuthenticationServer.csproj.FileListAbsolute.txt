@@ -246,3 +246,14 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.O
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\LoanShark.AuthenticationProvider.dll
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.dll
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\LoanShark.AuthenticationProvider.pdb
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.xml
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.xml
+C:\Development\LoanShark.Seb\LoanShark.AuthenticationServer\bin\Microsoft.Owin.Security.OAuth.xml
