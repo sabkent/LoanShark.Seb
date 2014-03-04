@@ -25,3 +25,4 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Micro
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.ClientSide\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.ClientSide\obj\Debug\LoanShark.Messaging.ClientSide.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.ClientSide\obj\Debug\LoanShark.Messaging.ClientSide.pdb
+C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging.ClientSide\obj\Debug\LoanShark.Messaging.ClientSide.csprojResolveAssemblyReference.cache
