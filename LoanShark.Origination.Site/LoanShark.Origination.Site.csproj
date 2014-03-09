@@ -263,6 +263,7 @@
     <Content Include="Views\Document\Upload.cshtml" />
     <Content Include="Views\Banking\Index.cshtml" />
     <Content Include="Views\Apply\EditorTemplates\RemunerationViewModel.cshtml" />
+    <Content Include="Views\Apply\Banking.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LoanShark.Application\LoanShark.Application.csproj">

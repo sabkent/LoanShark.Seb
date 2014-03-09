@@ -59,3 +59,5 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\System.Net.
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Infrastructure\obj\Debug\LoanShark.Infrastructure.pdb
+C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\RabbitMQ.Client.dll
+C:\Development\LoanShark.Seb\LoanShark.Infrastructure\bin\Debug\RabbitMQ.Client.xml

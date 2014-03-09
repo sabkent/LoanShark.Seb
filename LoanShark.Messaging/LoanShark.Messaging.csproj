@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client">
+      <HintPath>..\packages\RabbitMQ.Client.3.2.1\lib\net30\RabbitMQ.Client.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -40,12 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICallback.cs" />
     <Compile Include="ICommandDispatcher.cs" />
     <Compile Include="IEventPublisher.cs" />
     <Compile Include="IHandleCommand.cs" />
+    <Compile Include="IHandleMessage.cs" />
+    <Compile Include="IMessageBroker.cs" />
     <Compile Include="IMessageBus.cs" />
+    <Compile Include="IMessageChannel.cs" />
     <Compile Include="IMessageConsumer.cs" />
+    <Compile Include="ISubscriberRegistry.cs" />
     <Compile Include="ISubscribeToEvent.cs" />
+    <Compile Include="OctoBus\Message.cs" />
+    <Compile Include="OctoBus\MessageBroker.cs" />
+    <Compile Include="OctoBus\MessageBus.cs" />
+    <Compile Include="OctoBus\MessageReceiver.cs" />
+    <Compile Include="OctoBus\RabbitMqMessageChannel.cs" />
+    <Compile Include="OctoBus\SubscriberRegistry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -9,8 +9,26 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="firstname" />
+
+    <Button
+        android:id="@+id/applyCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editFirstName"
+        android:layout_marginTop="34dp"
+        android:text="Apply" />
 
 </RelativeLayout>

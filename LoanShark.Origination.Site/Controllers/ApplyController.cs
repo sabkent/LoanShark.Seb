@@ -55,6 +55,11 @@ namespace LoanShark.Origination.Site.Controllers
                 .Success(command => RedirectToAction("Processing", new {command.Id}));
         }
 
+        public ActionResult Banking()
+        {
+            return View();
+        }
+
         public ActionResult Processing(Guid id)
         {
             return View();

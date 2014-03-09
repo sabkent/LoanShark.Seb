@@ -45,3 +45,4 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.UI\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.UI\obj\Debug\LoanShark.UI.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.UI\obj\Debug\LoanShark.UI.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.UI\obj\Debug\LoanShark.UI.pdb
+C:\Development\LoanShark.Seb\LoanShark.UI\obj\Debug\LoanShark.UI.csprojResolveAssemblyReference.cache

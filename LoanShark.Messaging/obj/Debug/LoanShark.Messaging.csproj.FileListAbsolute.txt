@@ -19,3 +19,7 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging\bin\Debug\LoanShark.Core.p
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging\obj\Debug\LoanShark.Messaging.csprojResolveAssemblyReference.cache
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging\obj\Debug\LoanShark.Messaging.dll
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Messaging\obj\Debug\LoanShark.Messaging.pdb
+C:\Development\LoanShark.Seb\LoanShark.Messaging\bin\Debug\Newtonsoft.Json.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging\bin\Debug\RabbitMQ.Client.dll
+C:\Development\LoanShark.Seb\LoanShark.Messaging\bin\Debug\Newtonsoft.Json.xml
+C:\Development\LoanShark.Seb\LoanShark.Messaging\bin\Debug\RabbitMQ.Client.xml

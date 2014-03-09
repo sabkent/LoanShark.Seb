@@ -9,5 +9,7 @@ namespace LoanShark.Messaging
     public interface IMessageBus
     {
         void Publish<T>(T message);
+
+        ICallback Send<T>(T message);
     }
 }

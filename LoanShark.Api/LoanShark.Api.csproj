@@ -222,6 +222,7 @@
     <Compile Include="Controllers\Accounts\DebtsController.cs" />
     <Compile Include="Controllers\Banking\CardsController.cs" />
     <Compile Include="Controllers\Banking\SecureController.cs" />
+    <Compile Include="Controllers\Origination\ActionsController.cs" />
     <Compile Include="Controllers\Origination\ApplicationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -229,6 +230,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Representations\Accounts\Debt.cs" />
     <Compile Include="Representations\Link.cs" />
+    <Compile Include="Representations\Originations\Action.cs" />
     <Compile Include="Representations\Originations\LoanApplication.cs" />
     <Compile Include="Representations\Representation.cs" />
     <Compile Include="Startup.cs" />

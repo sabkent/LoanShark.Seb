@@ -276,3 +276,16 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.AuthenticationProvider.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.AuthenticationProvider.pdb
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\RabbitMQ.Client.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\RabbitMQ.Client.xml
