@@ -101,7 +101,6 @@ C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.xml
 C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Projects\Sandbox\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Newtonsoft.Json.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AuthenticationProvider.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Host.SystemWeb.dll

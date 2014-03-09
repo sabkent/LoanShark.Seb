@@ -287,5 +287,3 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Development\LoanShark.Seb\LoanShark.Api\bin\RabbitMQ.Client.dll
-C:\Development\LoanShark.Seb\LoanShark.Api\bin\RabbitMQ.Client.xml
