@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanShark.AuthenticationServer", "LoanShark.AuthenticationServer\LoanShark.AuthenticationServer.csproj", "{2ACE4E2A-46EA-4F17-8319-508BEA35E5D9}"
 EndProject
@@ -51,6 +51,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 . Messaging", "3 . Messaging", "{DB4E013E-6A3C-4C66-96B6-BE1966D955AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 . Security", "5 . Security", "{FA988A8A-74D3-4B2E-B727-D3A1791B45DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanShark.Tests.Specifications", "LoanShark.Tests.Specifications\LoanShark.Tests.Specifications.csproj", "{2CD2A306-5C76-4585-AA12-075696A22BE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +124,10 @@ Global
 		{7CF819D8-C4C5-44EC-8F9C-40DDFA833B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF819D8-C4C5-44EC-8F9C-40DDFA833B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF819D8-C4C5-44EC-8F9C-40DDFA833B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD2A306-5C76-4585-AA12-075696A22BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD2A306-5C76-4585-AA12-075696A22BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD2A306-5C76-4585-AA12-075696A22BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD2A306-5C76-4585-AA12-075696A22BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +148,7 @@ Global
 		{3C9BF820-F85A-46B9-96F3-903CC294E6FD} = {D1883344-BCD5-426A-9679-5A997BCB6E8C}
 		{6A57A665-4175-4825-AC75-B788F7A8DD96} = {D1883344-BCD5-426A-9679-5A997BCB6E8C}
 		{7B0D7911-0EE5-44FA-B0BC-196FBE03DFBD} = {8D4B445F-C123-4293-A7AB-08F417DF1588}
+		{2CD2A306-5C76-4585-AA12-075696A22BE6} = {8D4B445F-C123-4293-A7AB-08F417DF1588}
 		{7CF819D8-C4C5-44EC-8F9C-40DDFA833B15} = {FA988A8A-74D3-4B2E-B727-D3A1791B45DB}
 	EndGlobalSection
 EndGlobal

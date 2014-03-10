@@ -24,5 +24,10 @@ namespace LoanShark.AuthenticationProvider
                 return value != null ? value.ToString() : null;
             }
         }
+
+        public bool IsValid()
+        {
+            return true;
+        }
     }
 }

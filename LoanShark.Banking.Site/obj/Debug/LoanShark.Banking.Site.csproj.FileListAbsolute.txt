@@ -38,6 +38,8 @@ C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.WebPages.Depl
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.WebPages.dll
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.WebPages.Razor.dll
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\WebGrease.dll
+C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\Antlr3.Runtime.pdb
+C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\Newtonsoft.Json.xml
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.Helpers.xml
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.Mvc.xml
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.Optimization.xml
@@ -45,8 +47,5 @@ C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.Razor.xml
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.WebPages.xml
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.WebPages.Deployment.xml
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\System.Web.WebPages.Razor.xml
-C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\Newtonsoft.Json.xml
-C:\Development\LoanShark.Seb\LoanShark.Banking.Site\bin\Antlr3.Runtime.pdb
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\obj\Debug\LoanShark.Banking.Site.dll
 C:\Development\LoanShark.Seb\LoanShark.Banking.Site\obj\Debug\LoanShark.Banking.Site.pdb
-C:\Development\LoanShark.Seb\LoanShark.Banking.Site\obj\Debug\LoanShark.Banking.Site.csprojResolveAssemblyReference.cache
