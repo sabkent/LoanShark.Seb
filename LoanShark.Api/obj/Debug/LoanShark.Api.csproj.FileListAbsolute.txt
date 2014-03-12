@@ -199,6 +199,7 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Web.Infrastructure.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Owin.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.IdentityModel.Tokens.Jwt.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Formatting.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.Helpers.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.Http.dll
@@ -209,6 +210,9 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.Razor.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.Deployment.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.WebPages.Razor.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\WebApiContrib.CollectionJson.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\WebApiContrib.Formatting.CollectionJson.Client.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\WebApiContrib.Formatting.CollectionJson.Server.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\WebGrease.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\RabbitMQ.Client.dll
@@ -221,6 +225,7 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.IdentityModel.Tokens.Jwt.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Net.Http.Formatting.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.Helpers.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\bin\System.Web.Http.xml

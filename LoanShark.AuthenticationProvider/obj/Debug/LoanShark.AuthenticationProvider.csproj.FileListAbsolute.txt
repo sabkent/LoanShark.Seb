@@ -33,4 +33,3 @@ C:\Development\LoanShark.Seb\LoanShark.AuthenticationProvider\bin\Debug\Newtonso
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationProvider\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationProvider\obj\Debug\LoanShark.AuthenticationProvider.dll
 C:\Development\LoanShark.Seb\LoanShark.AuthenticationProvider\obj\Debug\LoanShark.AuthenticationProvider.pdb
-C:\Development\LoanShark.Seb\LoanShark.AuthenticationProvider\obj\Debug\LoanShark.AuthenticationProvider.csprojResolveAssemblyReference.cache

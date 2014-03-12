@@ -1,0 +1,3 @@
+*.dll
+*.pdb
+*/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

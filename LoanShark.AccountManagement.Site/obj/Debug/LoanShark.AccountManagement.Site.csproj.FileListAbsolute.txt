@@ -76,6 +76,7 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.Acco
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AccountManagement.Site.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AuthenticationProvider.dll
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.UI.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Host.SystemWeb.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.dll
@@ -94,6 +95,7 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\System.Web.Web
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\WebGrease.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AuthenticationProvider.pdb
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.UI.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Host.SystemWeb.xml

@@ -138,7 +138,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Api\ApiProxy.cs" />
     <Compile Include="Api\Representations\Debt.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -483,6 +482,10 @@
     <ProjectReference Include="..\LoanShark.AuthenticationProvider\LoanShark.AuthenticationProvider.csproj">
       <Project>{7cf819d8-c4c5-44ec-8f9c-40ddfa833b15}</Project>
       <Name>LoanShark.AuthenticationProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoanShark.UI\LoanShark.UI.csproj">
+      <Project>{f3b574be-acf0-4dbd-badd-f42d9de5ce1d}</Project>
+      <Name>LoanShark.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

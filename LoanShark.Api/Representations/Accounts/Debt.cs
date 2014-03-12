@@ -5,7 +5,7 @@ using System.Web;
 
 namespace LoanShark.Api.Representations.Accounts
 {
-    public class Debt : Representation
+    public class Debt 
     {
         public Guid Id { get; set; }
         public DateTime DueDate { get; set; }
