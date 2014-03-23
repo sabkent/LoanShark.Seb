@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\Integration\AccrueInterestTests.cs" />
     <Compile Include="Collections\Integration\Application\CommandHandlers\CollectDebtHandlerTests.cs" />
     <Compile Include="Collections\Integration\CreateDebtTests.cs" />
     <Compile Include="Messaging\OctoBusTests.cs" />

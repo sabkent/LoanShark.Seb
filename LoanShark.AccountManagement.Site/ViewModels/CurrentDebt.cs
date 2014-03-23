@@ -10,5 +10,7 @@ namespace LoanShark.AccountManagement.Site.ViewModels
         public Guid Id { get; set; }
         public DateTime DueDate { get; set; }
         public decimal Amount { get; set; }
+
+        public IEnumerable<ResourceLink> Links { get;  set; }
     }
 }

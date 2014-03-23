@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using LoanShark.Core.Collections.Domain.Events;
 
 namespace LoanShark.Core.Collections.Domain
@@ -13,6 +11,7 @@ namespace LoanShark.Core.Collections.Domain
     public class Debt : Aggregate
     {
         private decimal _amount;
+        private IList<Interest> _interestAccrued = new List<Interest>();
         
         public Debt(Guid id)
         {
@@ -29,9 +28,27 @@ namespace LoanShark.Core.Collections.Domain
             return new[] {debtIncurred};
         }
 
+        public IEnumerable<IEvent> AccrueInterest()
+        {
+           
+
+            var interestAccrued = new InterestAccrued();
+
+            Apply(interestAccrued);
+
+            return new[] {interestAccrued};
+        }
+
         private void ApplyEvent(DebtIncurred debtIncurred)
         {
             _amount = debtIncurred.Amount;
+        }
+
+        private void ApplyEvent(InterestAccrued interestAccrued)
+        {
+            _amount += interestAccrued.Amount;
+
+            _interestAccrued.Add(new Interest());
         }
     }
 }

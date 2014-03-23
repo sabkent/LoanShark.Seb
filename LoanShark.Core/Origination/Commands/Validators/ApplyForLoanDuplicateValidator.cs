@@ -19,7 +19,7 @@ namespace LoanShark.Core.Origination.Commands.Validators
 
         public IEnumerable<ValidationResult> Validate(ApplyForLoan command)
         {
-            var acceptedLoans = _readModelRepository.GetAll<AcceptedLoan>(loan => loan.FirstName == "seb");
+            var acceptedLoans = _readModelRepository.GetAll<AcceptedLoan>(loan => loan.FirstName == command.FirstName);
             if(acceptedLoans.Count() >3)
                 yield return new ValidationResult(String.Empty, "There are over 3 matching accounts");
         }

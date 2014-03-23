@@ -241,3 +241,13 @@ C:\Development\LoanShark.Seb\LoanShark.Api\bin\RabbitMQ.Client.xml
 C:\Development\LoanShark.Seb\LoanShark.Api\obj\Debug\LoanShark.Api.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.Api\obj\Debug\LoanShark.Api.dll
 C:\Development\LoanShark.Seb\LoanShark.Api\obj\Debug\LoanShark.Api.pdb
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.Integration.WebApi.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Autofac.Integration.WebApi.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Infrastructure.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\MongoDB.Driver.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\MongoDB.Bson.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\LoanShark.Infrastructure.pdb
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\MongoDB.Driver.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\MongoDB.Bson.xml
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.AspNet.SignalR.Client.dll
+C:\Development\LoanShark.Seb\LoanShark.Api\bin\Microsoft.AspNet.SignalR.Client.xml

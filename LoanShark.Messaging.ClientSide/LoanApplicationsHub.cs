@@ -9,5 +9,9 @@ namespace LoanShark.Messaging.ClientSide
 {
     public class LoanApplicationsHub : Hub
     {
+        public void Test()
+        {
+            Clients.All.test();
+        }
     }
 }

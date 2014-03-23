@@ -1,5 +1,6 @@
 ﻿using LoanShark.Application.Origination.Events;
 using LoanShark.Messaging;
+using Microsoft.AspNet.SignalR.Client;
 using Newtonsoft.Json;
 using System;
 using System.IO;
@@ -11,6 +12,8 @@ namespace LoanShark.Application.Origination.EventSubscribers
 {
     public class LoanApplicationCompleteSignaler : ISubscribeToEvent<LoanApplicationAccepted>
     {
+
+
         public async void Notify(LoanApplicationAccepted @event)
         {
             Thread.Sleep(TimeSpan.FromSeconds(2));
@@ -30,6 +33,19 @@ namespace LoanShark.Application.Origination.EventSubscribers
                 content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
                 var response = await httpClient.PostAsync("http://localhost:12277/api/event/loan-application-accepted", content);
             }
+        }
+
+        public void _Notify(LoanApplicationAccepted @event)
+        {
+            var connection = new HubConnection("http://localhost:12277/");
+            var loanApplications = connection.CreateHubProxy("LoanApplications");
+
+            connection.Start().ContinueWith(task =>
+            {
+               
+            }).Wait();
+
+            loanApplications.Invoke("Test");
         }
     }
 }

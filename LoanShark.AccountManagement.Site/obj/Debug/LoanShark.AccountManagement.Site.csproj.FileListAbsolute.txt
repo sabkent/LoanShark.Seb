@@ -114,3 +114,7 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.pdb
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.dll
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.Integration.Mvc.dll
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.xml
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.Integration.Mvc.xml

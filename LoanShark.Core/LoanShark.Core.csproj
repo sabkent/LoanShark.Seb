@@ -44,6 +44,7 @@
     <Compile Include="Accounts\Receivable\Repayment\Scheduling\Installment.cs" />
     <Compile Include="Accounts\Receivable\Repayment\Scheduling\Term.cs" />
     <Compile Include="Aggregate.cs" />
+    <Compile Include="Collections\Commands\ApplyInterestRate.cs" />
     <Compile Include="Collections\Commands\CollectDebt.cs" />
     <Compile Include="Collections\Data\IDebtRepository.cs" />
     <Compile Include="Collections\Domain\Collection.cs" />
@@ -53,6 +54,8 @@
     <Compile Include="Collections\Domain\Events\DebtCollectionAttempted.cs" />
     <Compile Include="Collections\Domain\Events\DebtCollectionCreated.cs" />
     <Compile Include="Collections\Domain\Events\DebtIncurred.cs" />
+    <Compile Include="Collections\Domain\Events\InterestAccrued.cs" />
+    <Compile Include="Collections\Domain\Interest.cs" />
     <Compile Include="Collections\Projections\OutstandingDebt.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="ICommandValidation.cs" />

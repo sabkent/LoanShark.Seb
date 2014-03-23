@@ -1,4 +1,5 @@
-﻿using LoanShark.Core.Origination.Commands;
+﻿using Autofac;
+using LoanShark.Core.Origination.Commands;
 using LoanShark.Messaging;
 using LoanShark.Messaging.RabbitMQ;
 using NUnit.Framework;
@@ -17,6 +18,16 @@ namespace LoanShark.Tests.Messaging
         public void PublishMessage()
         {
             new Publisher().Send(new ApplyForLoan());
+        }
+
+        [Test]
+        public void Test()
+        {
+            ContainerBuilder containerBuilder = new ContainerBuilder();
+            
+            var container = containerBuilder.Build();
+
+            new Consumer(container).Start();
         }
 
         public class MyMessage

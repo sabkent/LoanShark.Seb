@@ -1,6 +1,26 @@
-﻿@model IEnumerable<LoanShark.AccountManagement.Site.ViewModels.CurrentDebt>
+﻿@model LoanShark.AccountManagement.Site.ViewModels.DebtManagment
 @{
     ViewBag.Title = "Debt";
 }
 
 @Html.DisplayForModel()
+<input type="button" id="postCommand" value="post"/>
+<script src="~/Scripts/jquery-2.1.0.min.js"></script>
+<script>
+    $(function () {
+
+        $('#postCommand').on('click', function () {
+
+            $.support.cors = true;
+            $.ajax({
+                url: '/api/debts'
+            }).done(function (data) {
+                console.log("got data");
+                $.each(data, function(index, value) {
+                    console.log(value.Id);
+                });
+            });
+        });
+        
+    });
+</script>

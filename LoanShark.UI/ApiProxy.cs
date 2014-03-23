@@ -78,7 +78,7 @@ namespace LoanShark.AccountManagement.Site.Api
             }
 
             var httpClient = new HttpClient();
-            httpClient.BaseAddress = new Uri("http://localhost:12274/api/");
+            httpClient.BaseAddress = new Uri("http://api.localhost/");
 
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token.AccessToken);
             return httpClient;

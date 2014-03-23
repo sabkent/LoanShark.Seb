@@ -40,6 +40,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 . Solution Items", "9 . Solution Items", "{5471FD7D-C299-49DE-9278-4CAFA2ACAEE7}"
 	ProjectSection(SolutionItems) = preProject
 		Links.txt = Links.txt
+		Scaling.txt = Scaling.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanShark.Banking.Site", "LoanShark.Banking.Site\LoanShark.Banking.Site.csproj", "{71F9BAEB-F4EC-4C8E-9F2B-8EBEC063FF3A}"

@@ -1,4 +1,5 @@
 ﻿using System.Net.Http;
+using System.Threading.Tasks;
 using LoanShark.Api.Representations.Accounts;
 using System;
 using System.Collections.Generic;
@@ -19,18 +20,21 @@ namespace LoanShark.Api.Controllers.Accounts
 
         public IEnumerable<Debt> Get()
         {
-            return new List<Debt>
-            {
-                new Debt{Amount = 100, DueDate = DateTime.Now.AddDays(15), Id = Guid.NewGuid()},
-                new Debt{Amount = 30, DueDate = DateTime.Now.AddDays(1), Id = Guid.NewGuid()}
-            };
+            return _readModelRepository.GetAll<Debt>(debt => debt.DueDate > DateTime.Now);
+            //return new List<Debt>
+            //{
+            //    new Debt{Amount = 100, DueDate = DateTime.Now.AddDays(15), Id = Guid.NewGuid()},
+            //    new Debt{Amount = 30, DueDate = DateTime.Now.AddDays(1), Id = Guid.NewGuid()}
+            //};
         }
 
-        public HttpResponseMessage Post()
+        public async Task<HttpResponseMessage> Post()
         {
             var response = Request.CreateResponse();
 
+            var debt = await Request.Content.ReadAsAsync<Debt>();
 
+            _readModelRepository.Save(debt);
 
             return response;
         }

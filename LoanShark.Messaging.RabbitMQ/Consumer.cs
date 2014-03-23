@@ -26,7 +26,7 @@ namespace LoanShark.Messaging.RabbitMQ
 
             _connectionFactory = new ConnectionFactory
             {
-                HostName = "192.168.220.30",
+                HostName = "localhost",
                 UserName = "guest",
                 Password = "guest"
             };
@@ -38,6 +38,7 @@ namespace LoanShark.Messaging.RabbitMQ
         public void Start()
         {
             var applyForLoanQueue = "LoanShark.Core.Origination.Commands.ApplyForLoan";
+            _model.QueueDeclare(applyForLoanQueue, true, false, false, null);
             _subscription = new Subscription(_model, applyForLoanQueue, false);
 
             var consumer = new ConsumeDelegate(Poll);
