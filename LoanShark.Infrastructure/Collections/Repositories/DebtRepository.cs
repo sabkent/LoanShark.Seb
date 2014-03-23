@@ -6,7 +6,7 @@ namespace LoanShark.Infrastructure.Collections.Repositories
     public class DebtRepository : EventSourcedRepository, IDebtRepository
     {
         public DebtRepository(IEventStore eventStore)
-            :base(eventStore)
+            : base(eventStore)
         {
             eventStore.ConnectionStringName = "collections";
         }

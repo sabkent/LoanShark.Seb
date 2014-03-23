@@ -2,3 +2,4 @@
 *.pdb
 */obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 *.dll
+*.pdb

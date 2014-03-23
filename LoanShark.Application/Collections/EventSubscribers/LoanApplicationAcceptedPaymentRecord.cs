@@ -1,34 +1,22 @@
-﻿using LoanShark.Application.Messaging;
-using LoanShark.Application.Origination.Events;
-using LoanShark.Core;
-using LoanShark.Core.Collections.Data;
-using LoanShark.Core.Collections.Domain;
-using LoanShark.Core.Collections.Projections;
-using System;
+﻿using LoanShark.Application.Origination.Events;
+using LoanShark.Core.Collections.Commands;
 using LoanShark.Messaging;
 
 namespace LoanShark.Application.Collections.EventSubscribers
 {
-    public sealed class LoanApplicationAcceptedPaymentRecord : ISubscribeToEvent<LoanApplicationAccepted>
-    {        
-        private readonly IDebtRepository _debtRepository;
-        private readonly IEventPublisher _eventPublisher;
+    public sealed class LoanApplicationAcceptedPaymentRecord : ISubscribeToEvent<LoanApplicationAccepted> //Collections BC maps to Origination
+    {     
+        private readonly ICommandDispatcher _commandDispatcher;
 
-        public LoanApplicationAcceptedPaymentRecord(IDebtRepository debtRepository, IEventPublisher eventPublisher)
+        public LoanApplicationAcceptedPaymentRecord(ICommandDispatcher commandDispatcher)
         {
-            _debtRepository = debtRepository;
-            _eventPublisher = eventPublisher;
+            _commandDispatcher = commandDispatcher;
         }
 
         public void Notify(LoanApplicationAccepted loanApplicationAccepted)
         {
-            var debt = new Debt(loanApplicationAccepted.ApplicationId);
-
-            var events = debt.Incur(loanApplicationAccepted.Amount);
-            //_debtRepository.Save(debt);
-
-            foreach (var @event in events)            
-                _eventPublisher.Publish(@event);
+            var incurDebt = new IncurDebt(loanApplicationAccepted.ApplicantId, loanApplicationAccepted.Amount);
+            _commandDispatcher.Send(incurDebt);
         }
     }
 }

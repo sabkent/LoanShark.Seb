@@ -28,12 +28,26 @@
             <param name="instance"></param>
             <returns>A ValidationResult containing any validation failures</returns>
         </member>
+        <member name="M:FluentValidation.IValidator.ValidateAsync(System.Object)">
+            <summary>
+            Validates the specified instance asynchronously
+            </summary>
+            <param name="instance"></param>
+            <returns>A ValidationResult containing any validation failures</returns>
+        </member>
         <member name="M:FluentValidation.IValidator.Validate(FluentValidation.ValidationContext)">
             <summary>
             Validates the specified instance.
             </summary>
             <param name="context">A ValidationContext</param>
             <returns>A ValidationResult object containy any validation failures.</returns>
+        </member>
+        <member name="M:FluentValidation.IValidator.ValidateAsync(FluentValidation.ValidationContext)">
+            <summary>
+            Validates the specified instance asynchronously.
+            </summary>
+            <param name="context">A ValidationContext</param>
+            <returns>A ValidationResult object containy any validation failures.</returns>		
         </member>
         <member name="M:FluentValidation.IValidator.CreateDescriptor">
             <summary>
@@ -53,6 +67,13 @@
             <param name="instance">The instance to validate</param>
             <returns>A ValidationResult object containing any validation failures.</returns>
         </member>
+        <member name="M:FluentValidation.IValidator`1.ValidateAsync(`0)">
+            <summary>
+            Validate the specified instance asynchronously
+            </summary>
+            <param name="instance">The instance to validate</param>
+            <returns>A ValidationResult object containing any validation failures.</returns>
+        </member>
         <member name="P:FluentValidation.IValidator`1.CascadeMode">
             <summary>
             Sets the cascade mode for all rules within this validator.
@@ -65,9 +86,23 @@
             <param name="instance">The object to validate</param>
             <returns>A ValidationResult object containing any validation failures</returns>
         </member>
+        <member name="M:FluentValidation.AbstractValidator`1.ValidateAsync(`0)">
+            <summary>
+            Validates the specified instance asynchronously
+            </summary>
+            <param name="instance">The object to validate</param>
+            <returns>A ValidationResult object containing any validation failures</returns>
+        </member>
         <member name="M:FluentValidation.AbstractValidator`1.Validate(FluentValidation.ValidationContext{`0})">
             <summary>
             Validates the specified instance.
+            </summary>
+            <param name="context">Validation Context</param>
+            <returns>A ValidationResult object containing any validation failures.</returns>
+        </member>
+        <member name="M:FluentValidation.AbstractValidator`1.ValidateAsync(FluentValidation.ValidationContext{`0})">
+            <summary>
+            Validates the specified instance asynchronously.
             </summary>
             <param name="context">Validation Context</param>
             <returns>A ValidationResult object containing any validation failures.</returns>
@@ -106,6 +141,22 @@
             <summary>
             Defines a custom validation rule using a lambda expression.
             If the validation rule fails, it should return an instance of <see cref="T:FluentValidation.Results.ValidationFailure">ValidationFailure</see>
+            If the validation rule succeeds, it should return null.
+            </summary>
+            <param name="customValidator">A lambda that executes custom validation rules</param>
+        </member>
+        <member name="M:FluentValidation.AbstractValidator`1.CustomAsync(System.Func{`0,System.Threading.Tasks.Task{FluentValidation.Results.ValidationFailure}})">
+            <summary>
+            Defines a custom asynchronous validation rule using a lambda expression.
+            If the validation rule fails, it should asynchronously return a instance of a <see cref="T:FluentValidation.Results.ValidationFailure">ValidationFailure</see>
+            If the validation rule succeeds, it should return null.
+            </summary>
+            <param name="customValidator">A lambda that executes custom validation rules.</param>
+        </member>
+        <member name="M:FluentValidation.AbstractValidator`1.CustomAsync(System.Func{`0,FluentValidation.ValidationContext{`0},System.Threading.Tasks.Task{FluentValidation.Results.ValidationFailure}})">
+            <summary>
+            Defines a custom asynchronous validation rule using a lambda expression.
+            If the validation rule fails, it should asynchronously return an instance of <see cref="T:FluentValidation.Results.ValidationFailure">ValidationFailure</see>
             If the validation rule succeeds, it should return null.
             </summary>
             <param name="customValidator">A lambda that executes custom validation rules</param>
@@ -432,7 +483,7 @@
         <member name="M:FluentValidation.DefaultValidatorExtensions.Must``2(FluentValidation.IRuleBuilder{``0,``1},System.Func{``1,System.Boolean})">
             <summary>
             Defines a predicate validator on the current rule builder using a lambda expression to specify the predicate.
-            Validation will fail if the specified lambda returns false. 
+            Validation will fail if the specified lambda returns false.
             Validation will succeed if the specifed lambda returns true.
             </summary>
             <typeparam name="T">Type of object being validated</typeparam>
@@ -444,7 +495,7 @@
         <member name="M:FluentValidation.DefaultValidatorExtensions.Must``2(FluentValidation.IRuleBuilder{``0,``1},System.Func{``0,``1,System.Boolean})">
             <summary>
             Defines a predicate validator on the current rule builder using a lambda expression to specify the predicate.
-            Validation will fail if the specified lambda returns false. 
+            Validation will fail if the specified lambda returns false.
             Validation will succeed if the specifed lambda returns true.
             This overload accepts the object being validated in addition to the property being validated.
             </summary>
@@ -457,7 +508,45 @@
         <member name="M:FluentValidation.DefaultValidatorExtensions.Must``2(FluentValidation.IRuleBuilder{``0,``1},System.Func{``0,``1,FluentValidation.Validators.PropertyValidatorContext,System.Boolean})">
             <summary>
             Defines a predicate validator on the current rule builder using a lambda expression to specify the predicate.
-            Validation will fail if the specified lambda returns false. 
+            Validation will fail if the specified lambda returns false.
+            Validation will succeed if the specifed lambda returns true.
+            This overload accepts the object being validated in addition to the property being validated.
+            </summary>
+            <typeparam name="T">Type of object being validated</typeparam>
+            <typeparam name="TProperty">Type of property being validated</typeparam>
+            <param name="ruleBuilder">The rule builder on which the validator should be defined</param>
+            <param name="predicate">A lambda expression specifying the predicate</param>
+            <returns></returns>
+        </member>
+        <member name="M:FluentValidation.DefaultValidatorExtensions.MustAsync``2(FluentValidation.IRuleBuilder{``0,``1},System.Func{``1,System.Threading.Tasks.Task{System.Boolean}})">
+            <summary>
+            Defines an asynchronous predicate validator on the current rule builder using a lambda expression to specify the predicate.
+            Validation will fail if the specified lambda returns false.
+            Validation will succeed if the specifed lambda returns true.
+            </summary>
+            <typeparam name="T">Type of object being validated</typeparam>
+            <typeparam name="TProperty">Type of property being validated</typeparam>
+            <param name="ruleBuilder">The rule builder on which the validator should be defined</param>
+            <param name="predicate">A lambda expression specifying the predicate</param>
+            <returns></returns>
+        </member>
+        <member name="M:FluentValidation.DefaultValidatorExtensions.MustAsync``2(FluentValidation.IRuleBuilder{``0,``1},System.Func{``0,``1,System.Threading.Tasks.Task{System.Boolean}})">
+            <summary>
+            Defines an asynchronous predicate validator on the current rule builder using a lambda expression to specify the predicate.
+            Validation will fail if the specified lambda returns false.
+            Validation will succeed if the specifed lambda returns true.
+            This overload accepts the object being validated in addition to the property being validated.
+            </summary>
+            <typeparam name="T">Type of object being validated</typeparam>
+            <typeparam name="TProperty">Type of property being validated</typeparam>
+            <param name="ruleBuilder">The rule builder on which the validator should be defined</param>
+            <param name="predicate">A lambda expression specifying the predicate</param>
+            <returns></returns>
+        </member>
+        <member name="M:FluentValidation.DefaultValidatorExtensions.MustAsync``2(FluentValidation.IRuleBuilder{``0,``1},System.Func{``0,``1,FluentValidation.Validators.PropertyValidatorContext,System.Threading.Tasks.Task{System.Boolean}})">
+            <summary>
+            Defines an asynchronous predicate validator on the current rule builder using a lambda expression to specify the predicate.
+            Validation will fail if the specified lambda returns false.
             Validation will succeed if the specifed lambda returns true.
             This overload accepts the object being validated in addition to the property being validated.
             </summary>
@@ -700,9 +789,31 @@
             <param name="properties">The names of the properties to validate.</param>
             <returns>A ValidationResult object containing any validation failures.</returns>
         </member>
+        <member name="M:FluentValidation.DefaultValidatorExtensions.ValidateAsync``1(FluentValidation.IValidator{``0},``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])">
+            <summary>
+            Validates certain properties of the specified instance asynchronously.
+            </summary>
+            <param name="validator">The current validator</param>
+            <param name="instance">The object to validate</param>
+            <param name="propertyExpressions">Expressions to specify the properties to validate</param>
+            <returns>A ValidationResult object containing any validation failures</returns>
+        </member>
+        <member name="M:FluentValidation.DefaultValidatorExtensions.ValidateAsync``1(FluentValidation.IValidator{``0},``0,System.String[])">
+            <summary>
+            Validates certain properties of the specified instance asynchronously.
+            </summary>
+            <param name="instance">The object to validate</param>
+            <param name="properties">The names of the properties to validate.</param>
+            <returns>A ValidationResult object containing any validation failures.</returns>
+        </member>
         <member name="M:FluentValidation.DefaultValidatorExtensions.ValidateAndThrow``1(FluentValidation.IValidator{``0},``0)">
             <summary>
             Performs validation and then throws an exception if validation fails.
+            </summary>
+        </member>
+        <member name="M:FluentValidation.DefaultValidatorExtensions.ValidateAndThrowAsync``1(FluentValidation.IValidator{``0},``0)">
+            <summary>
+            Performs validation asynchronously and then throws an exception if validation fails.
             </summary>
         </member>
         <member name="M:FluentValidation.DefaultValidatorExtensions.InclusiveBetween``2(FluentValidation.IRuleBuilder{``0,``1},``1,``1)">
@@ -960,6 +1071,13 @@
             <param name="context">Validation Context</param>
             <returns>A collection of validation failures</returns>
         </member>
+        <member name="M:FluentValidation.IValidationRule.ValidateAsync(FluentValidation.ValidationContext)">
+            <summary>
+            Performs validation using a validation context and returns a collection of Validation Failures asynchronoulsy.
+            </summary>
+            <param name="context">Validation Context</param>
+            <returns>A collection of validation failures</returns>
+        </member>
         <member name="P:FluentValidation.IValidationRule.Validators">
             <summary>
             The validators that are grouped under this rule.
@@ -1019,6 +1137,13 @@
         <member name="M:FluentValidation.Internal.PropertyRule.Validate(FluentValidation.ValidationContext)">
             <summary>
             Performs validation using a validation context and returns a collection of Validation Failures.
+            </summary>
+            <param name="context">Validation Context</param>
+            <returns>A collection of validation failures</returns>
+        </member>
+        <member name="M:FluentValidation.Internal.PropertyRule.ValidateAsync(FluentValidation.ValidationContext)">
+            <summary>
+            Performs asynchronous validation using a validation context and returns a collection of Validation Failures.
             </summary>
             <param name="context">Validation Context</param>
             <returns>A collection of validation failures</returns>
@@ -1165,6 +1290,16 @@
             Creates a new DelegateValidator using the specified function to perform validation.
             </summary>
         </member>
+        <member name="M:FluentValidation.Internal.DelegateValidator`1.#ctor(System.Func{`0,FluentValidation.ValidationContext{`0},System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{FluentValidation.Results.ValidationFailure}}})">
+            <summary>
+            Creates a new DelegateValidator using the specified async function to perform validation.
+            </summary>
+        </member>
+        <member name="M:FluentValidation.Internal.DelegateValidator`1.#ctor(System.Func{`0,System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{FluentValidation.Results.ValidationFailure}}})">
+            <summary>
+            Creates a new DelegateValidator using the specified async function to perform validation.
+            </summary>
+        </member>
         <member name="M:FluentValidation.Internal.DelegateValidator`1.Validate(FluentValidation.ValidationContext{`0})">
             <summary>
             Performs validation using a validation context and returns a collection of Validation Failures.
@@ -1172,9 +1307,23 @@
             <param name="context">Validation Context</param>
             <returns>A collection of validation failures</returns>
         </member>
+        <member name="M:FluentValidation.Internal.DelegateValidator`1.ValidateAsync(FluentValidation.ValidationContext{`0})">
+            <summary>
+            Performs validation asynchronously using a validation context and returns a collection of Validation Failures.
+            </summary>
+            <param name="context">Validation Context</param>
+            <returns>A collection of validation failures</returns>
+        </member>
         <member name="M:FluentValidation.Internal.DelegateValidator`1.Validate(FluentValidation.ValidationContext)">
             <summary>
             Performs validation using a validation context and returns a collection of Validation Failures.
+            </summary>
+            <param name="context">Validation Context</param>
+            <returns>A collection of validation failures</returns>
+        </member>
+        <member name="M:FluentValidation.Internal.DelegateValidator`1.ValidateAsync(FluentValidation.ValidationContext)">
+            <summary>
+            When overloaded performs validation asynchronously using a validation context and returns a collection of Validation Failures.
             </summary>
             <param name="context">Validation Context</param>
             <returns>A collection of validation failures</returns>

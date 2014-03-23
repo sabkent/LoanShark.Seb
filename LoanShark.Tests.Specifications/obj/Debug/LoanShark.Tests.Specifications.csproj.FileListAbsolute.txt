@@ -1,0 +1,7 @@
+C:\Development\LoanShark.Seb\LoanShark.Tests.Specifications\bin\Debug\LoanShark.Tests.Specifications.dll
+C:\Development\LoanShark.Seb\LoanShark.Tests.Specifications\bin\Debug\LoanShark.Tests.Specifications.pdb
+C:\Development\LoanShark.Seb\LoanShark.Tests.Specifications\bin\Debug\nunit.framework.dll
+C:\Development\LoanShark.Seb\LoanShark.Tests.Specifications\bin\Debug\nunit.framework.xml
+C:\Development\LoanShark.Seb\LoanShark.Tests.Specifications\obj\Debug\LoanShark.Tests.Specifications.csprojResolveAssemblyReference.cache
+C:\Development\LoanShark.Seb\LoanShark.Tests.Specifications\obj\Debug\LoanShark.Tests.Specifications.dll
+C:\Development\LoanShark.Seb\LoanShark.Tests.Specifications\obj\Debug\LoanShark.Tests.Specifications.pdb

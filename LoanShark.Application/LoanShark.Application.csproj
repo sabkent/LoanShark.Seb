@@ -71,6 +71,7 @@
     <Compile Include="Collections\CommandHandlers\CollectDebtHandler.cs" />
     <Compile Include="Collections\CommandHandlers\CollectionProcessor.cs" />
     <Compile Include="Collections\CommandHandlers\ICollectionProcessor.cs" />
+    <Compile Include="Collections\CommandHandlers\IncurDebtHandler.cs" />
     <Compile Include="Collections\ContainerModule.cs" />
     <Compile Include="Collections\TakePaymentResponse.cs" />
     <Compile Include="Collections\EventSubscribers\LoanApplicationAcceptedPaymentRecord.cs" />

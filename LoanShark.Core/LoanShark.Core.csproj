@@ -46,6 +46,7 @@
     <Compile Include="Aggregate.cs" />
     <Compile Include="Collections\Commands\ApplyInterestRate.cs" />
     <Compile Include="Collections\Commands\CollectDebt.cs" />
+    <Compile Include="Collections\Commands\IncurDebt.cs" />
     <Compile Include="Collections\Data\IDebtRepository.cs" />
     <Compile Include="Collections\Domain\Collection.cs" />
     <Compile Include="Collections\Domain\Debt.cs" />

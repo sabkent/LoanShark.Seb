@@ -212,6 +212,7 @@ C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\System.Web.WebPages.
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\System.Web.WebPages.dll
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\System.Web.WebPages.Razor.dll
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\WebGrease.dll
+C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\Microsoft.AspNet.SignalR.Client.dll
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\MongoDB.Driver.dll
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\MongoDB.Bson.dll
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\EasyNetQ.dll
@@ -246,6 +247,7 @@ C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\System.Web.Razor.xml
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\System.Web.WebPages.xml
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\System.Web.WebPages.Deployment.xml
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\System.Web.WebPages.Razor.xml
+C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\Microsoft.AspNet.SignalR.Client.xml
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\MongoDB.Driver.xml
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\MongoDB.Bson.xml
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\EasyNetQ.xml
@@ -267,5 +269,3 @@ C:\Development\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark.Orig
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark.Origination.Site.csproj.GenerateResource.Cache
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark.Origination.Site.dll
 C:\Development\LoanShark.Seb\LoanShark.Origination.Site\obj\Debug\LoanShark.Origination.Site.pdb
-C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\Microsoft.AspNet.SignalR.Client.dll
-C:\Development\LoanShark.Seb\LoanShark.Origination.Site\bin\Microsoft.AspNet.SignalR.Client.xml

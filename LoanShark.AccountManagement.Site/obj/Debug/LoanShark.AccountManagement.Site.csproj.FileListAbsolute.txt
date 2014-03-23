@@ -75,6 +75,8 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.Acco
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AccountManagement.Site.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AccountManagement.Site.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.dll
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.dll
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.Integration.Mvc.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AuthenticationProvider.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.UI.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.dll
@@ -97,6 +99,8 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.AuthenticationProvider.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\LoanShark.UI.pdb
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Antlr3.Runtime.pdb
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.xml
+C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.Integration.Mvc.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin.Security.xml
@@ -114,7 +118,3 @@ C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Microsoft.Owin
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.dll
 C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\obj\Debug\LoanShark.AccountManagement.Site.pdb
-C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.dll
-C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.Integration.Mvc.dll
-C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.xml
-C:\Development\LoanShark.Seb\LoanShark.AccountManagement.Site\bin\Autofac.Integration.Mvc.xml
