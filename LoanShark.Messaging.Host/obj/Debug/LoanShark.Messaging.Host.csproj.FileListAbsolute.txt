@@ -101,3 +101,5 @@ C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\bin\Debug\MongoDB.Bson.xml
 C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\obj\Debug\LoanShark.Messaging.Host.csprojResolveAssemblyReference.cache
 C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\obj\Debug\LoanShark.Messaging.Host.exe
 C:\Development\LoanShark.Seb\LoanShark.Messaging.Host\obj\Debug\LoanShark.Messaging.Host.pdb
+C:\Development\LoanShark.Seb\LoanShark.Messaging.RabbitMQ\obj\Debug\LoanShark.Messaging.Host.exe
+C:\Development\LoanShark.Seb\LoanShark.Messaging.RabbitMQ\obj\Debug\LoanShark.Messaging.Host.pdb

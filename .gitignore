@@ -3,3 +3,5 @@
 */obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 *.dll
 *.pdb
+LoanShark.Messaging.Host/bin
+LoanShark.Messaging.Host/obj/
